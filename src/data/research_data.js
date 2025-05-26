@@ -237,8 +237,8 @@ export const research_temp = {
         {
             poster: "img/icon/Under_Review.png",
             demo: "",
-            title: "Tendon Vibration for Virtual Object Interactions",
-            authors: "Kun-Woo Song et.al",
+            title: "Pressure-based Phantom Sensation for Hand Interactions",
+            authors: "Dongkyu Kwak et.al",
             status: "Under Review",
             conference: "",
             conferenceLink: "",
