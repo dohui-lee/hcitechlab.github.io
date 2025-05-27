@@ -289,9 +289,9 @@ export const gct722_data = [
             {
                 day1: {
                     date: "6/3",
-                    titles: ["Final Project Progress Meeting with TAs", "Final Presentation Preparation"],
-                    type: 1,
-                    notes: [{ name: "Final Project Q&A", link: "" }],
+                    titles: ["No Class (Election Day)"],
+                    type: 2,
+                    notes: [],
                     dues: []
                 },
                 day2: {

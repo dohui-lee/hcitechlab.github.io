@@ -162,7 +162,7 @@ export const gct623_data = [
               },
               {
                 day1: {
-                  date: "6/3", titles: ["Final Presentation Preparation Q&A"], type: 1,
+                  date: "6/3", titles: ["No Class (Election Day)"], type: 2,
                   notes: [],
                   dues: []
                 },
