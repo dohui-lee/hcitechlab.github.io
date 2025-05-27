@@ -158,7 +158,7 @@ export const gct623_data = [
               },
               {
                 day1: { date: "5/27", titles: ["Topic Presentation #7", "Physiological Sensing"], type: 1, notes: [{ name: "HW#4 Handout (KLMS)", link: "" }], dues: [{ name: "RR (Group B) due by 5/26 (Mon) 11:59pm", link: "" }] },
-                day2: { date: "5/29", titles: ["Topic Presentation #8"], type: 1, notes: [], dues: [{ name: "HW#4 due by 6/1 (Sun) 11:59pm", link: "" }] }
+                day2: { date: "5/29", titles: ["Topic Presentation #8"], type: 1, notes: [], dues: [{ name: "HW#4 due by 6/2 (Mon) 11:59pm", link: "" }] }
               },
               {
                 day1: {
