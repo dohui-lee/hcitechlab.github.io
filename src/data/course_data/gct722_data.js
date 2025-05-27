@@ -274,14 +274,14 @@ export const gct722_data = [
                 day1: {
                     date: "5/27",
                     titles: ["Topic Presentation #7", "XR Haptics Design Guidelines"],
-                    type: 0,
+                    type: 1,
                     notes: [],
                     dues: []
                 },
                 day2: {
                     date: "5/29",
                     titles: [ "XR Haptics Design Guidelines", "Applications"],
-                    type: 1,
+                    type: 0,
                     notes: [],
                     dues: []
                 }
