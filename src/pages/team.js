@@ -3,6 +3,8 @@ import Link from "next/link";
 import {phdStudents, interns, msStudents, gradAlumni, internAlumni} from "@/data/members_data";
 import MemberImage from "@/components/member_image";
 import { Fragment } from "react";
+import { ChevronRight, ChevronDown } from "lucide-react";
+import { useState, useRef, useEffect } from "react";
 
 export default function Team() {
     return (
@@ -160,42 +162,112 @@ const AdministrativeStaff = () => {
 }
 
 const GradAlumni = () => {
-  return (
+  const [isOpen, setIsOpen] = useState(false);
+  const contentRef = useRef(null);
+
+   return (
     <div>
-      <h2 className="card-title">Alumni (Graduate Students)</h2>
-      {
-        gradAlumni.map(
-          (member, index) => (
-            <p key = {index} className="alumni">
-              {member['nameLink'] == '#' ? member['name'] + " " : <Link href={member['nameLink']} target="_blank">{member['name']} </Link>} 
-              <span className="type">{member['title']} </span>
-              <span className="period">{member['period']} </span>
-              {member['thesisLink'] == "#" ? "" : <Link href={member['thesisLink']} target="_blank">Thesis </Link>} 
-              <span className = "type">{member['current']}</span>
-            </p>
-          )
-        )
-      }
+      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <h2 className="card-title" style={{ margin: 0 }}>
+          Alumni (Graduate Students)
+        </h2>
+        <button 
+          onClick={() => setIsOpen(prev => !prev)}
+          style={{
+            background: 'none',
+            border: 'none',
+            padding: '4px',
+            cursor: 'pointer',
+            display: 'flex',
+            alignItems: 'center'
+          }}
+          aria-label="Toggle Alumni List"
+        >
+          {isOpen ? <ChevronDown size={24} /> : <ChevronRight size={24} />}
+        </button>
+      </div>
+
+      <div style={{ height: '0.83em' }} />
+
+      <div
+        ref={contentRef}
+        style={{
+          maxHeight: isOpen ? contentRef.current?.scrollHeight : 0,
+          overflow: 'hidden',
+          transition: 'max-height 0.4s ease',
+          opacity: isOpen ? 1 : 0,
+          transitionProperty: 'max-height, opacity',
+          transitionDuration: '0.4s',
+        }}
+      >
+        {gradAlumni.map((member, index) => (
+          <p key={index} className="alumni">
+            {member.nameLink === '#' ? member.name + ' ' : <Link href={member.nameLink} target="_blank">{member.name} </Link>}
+            <span className="type">{member.title} </span>
+            <span className="period">{member.period} </span>
+            {member.thesisLink === '#' ? '' : <Link href={member.thesisLink} target="_blank">Thesis </Link>}
+            <span className="type">{member.current}</span>
+          </p>
+        ))}
+      </div>
     </div>
   );
 }
 
 const InternAlumni = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const contentRef = useRef(null);
+
   return (
     <div>
-      <h2 className="card-title">Alumni (Interns)</h2>
-      {
-        internAlumni.map(
-          (member, index) => (
-            <p key = {index} className="alumni">
-              {member['nameLink'] == '#' ? member['name'] + " " : <Link href={member['nameLink']} target="_blank">{member['name']} </Link>} 
-              <span className="type">{member['title']} </span>
-              <span className="period">{member['period']} </span>
-              <span className = "type">{member['current']}</span>
-            </p>
+
+      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <h2 className="card-title" style={{ margin: 0 }}>
+          Alumni (Interns)
+        </h2>
+        <button 
+          onClick={() => setIsOpen(prev => !prev)}
+          style={{
+            background: 'none',
+            border: 'none',
+            padding: '4px',
+            cursor: 'pointer',
+            display: 'flex',
+            alignItems: 'center'
+          }}
+          aria-label="Toggle Alumni List"
+        >
+          {isOpen ? <ChevronDown size={24} /> : <ChevronRight size={24} />}
+        </button>
+      </div>
+
+      <div style={{ height: '0.83em' }} />
+
+      
+      <div
+        ref={contentRef}
+        style={{
+          maxHeight: isOpen ? contentRef.current?.scrollHeight : 0,
+          overflow: 'hidden',
+          transition: 'max-height 0.4s ease',
+          opacity: isOpen ? 1 : 0,
+          transitionProperty: 'max-height, opacity',
+          transitionDuration: '0.4s',
+        }}
+      >
+        {
+          internAlumni.map(
+            (member, index) => (
+              <p key = {index} className="alumni">
+                {member['nameLink'] == '#' ? member['name'] + " " : <Link href={member['nameLink']} target="_blank">{member['name']} </Link>} 
+                <span className="type">{member['title']} </span>
+                <span className="period">{member['period']} </span>
+                <span className = "type">{member['current']}</span>
+              </p>
+            )
           )
-        )
-      }
+        }
+      </div>
     </div>
   );
 }
