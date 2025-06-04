@@ -252,6 +252,24 @@ export const research_temp = {
             highlight: false,
             category: "Submitted"
         },
+        {
+            poster: "img/icon/Under_Review.png",
+            demo: "",
+            title: "Affective Haptic Rendering",
+            authors: "Minju Baeck et.al",
+            status: "Under Review",
+            conference: "",
+            conferenceLink: "",
+            award: "",
+            website: "",
+            doi: "",
+            video: "",
+            pdf: "",
+            presentation: "",
+            media: "",
+            highlight: false,
+            category: "Submitted"
+        },
     ],
     "2024": [
         {
