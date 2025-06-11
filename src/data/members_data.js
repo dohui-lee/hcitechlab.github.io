@@ -40,7 +40,7 @@ export const phdStudents = [
     "hoverImg": "main_icon.png",
     "name": "Min-yung Kim",
     "title": "Ph.D. Student",
-    "interest": "Research Interest",
+    "interest": "Multimodal Interactions",
     "link": "https://sites.google.com/view/minyungkim/home",
     "mail": "#",
     "linkedin": "#",
