@@ -3,10 +3,10 @@ import Link from "next/link";
 export const phdStudents = [
     {
         img: "img/Member/YS.jpeg",
-        hoverImg: "main_icon.png",
+        hoverImg: "img/Member/hover_image/YJ_hover.jpg",
         name: "Youjin Sung",
         title: "Ph.D. Student",
-        interest: "Generative AI for Haptics",
+        interest: "Multimodal Human-AI Interaction",
         link: "http://youjinsung.com/",
         mail: "#",
         linkedin: "https://www.linkedin.com/in/youjin-sung-7105a1279",
