@@ -80,7 +80,7 @@ export const phdStudents = [
     },
     {
         img: "img/Member/HL.jpeg",
-        hoverImg: "main_icon.png",
+        hoverImg: "img/Member/hover_image/HI_hover.png",
         name: "Hyung Il Yi",
         title: "Ph.D. Student",
         interest: "Research Interest",
