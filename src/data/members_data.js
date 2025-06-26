@@ -36,7 +36,7 @@ export const phdStudents = [
     },
     {
         img: "img/Member/MK.jpg",
-        hoverImg: "main_icon.png",
+        hoverImg: "img/Member/hover_image/MK_hover.jpg",
         name: "Min-yung Kim",
         title: "Ph.D. Student",
         interest: "Multimodal Interactions",
@@ -47,7 +47,7 @@ export const phdStudents = [
     },
     {
         img: "img/Member/DK.jpg",
-        hoverImg: "main_icon.png",
+        hoverImg: "img/Member/hover_image/DK_hover.jpg",
         name: "Dong Kyu Kwak",
         title: "Ph.D. Student",
         interest: "Wearable Haptic Devices",
