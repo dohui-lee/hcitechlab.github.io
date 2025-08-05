@@ -1,6 +1,23 @@
 export const research_temp = {
     "2025": [
         {
+            poster: "research/2025/ISWC/ISWC1.png",
+            demo: "",
+            title: "InvisiBow: Finger-Held Device for Bimanual Haptic Illusions during Virtual Archery",
+            authors: "Hyung Il(IL) Yi*, Kun-Woo Song*, Nihar Sabnis, Andrea Bianchi, Sang Ho Yoon",
+            status: "",
+            conference: "ACM ISWC (UbiComp/ISWC 2025)",
+            conferenceLink: "https://www.ubicomp.org/ubicomp-iswc-2025/iswc-notes-and-briefs/",
+            award: "",
+            doi: "https://doi.org/10.1145/3715071.3750428",
+            video: "https://youtu.be/QtgZbL7Vb2o",
+            pdf: "",
+            presentation: "",
+            media: "",
+            highlight: true,
+            category: "Conference / Journal (peer-reviewed)"
+        },
+        {
             poster: "research/2025/IMWUT/IMWUT.png",
             demo: "",
             title: "UltraBoard: Always-Available Wearable Ultrasonic Mid-air Haptic Interface for Responsive and Robust VR Inputs",
