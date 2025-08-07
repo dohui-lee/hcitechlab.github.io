@@ -371,7 +371,7 @@ export const research_temp = {
             conferenceLink: "https://ieeeismar.org/",
             award: "",
             website: "https://thermicvib.hcitech.org",
-            doi: "10.1109/ISMAR62088.2024.00076",
+            doi: "https://doi.org/10.1109/ISMAR62088.2024.00076",
             video: "https://youtu.be/lbaMmwTX21k",
             pdf: "research/ISMAR2024/ismar2024.pdf",
             presentation: "",
