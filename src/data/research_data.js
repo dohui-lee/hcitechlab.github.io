@@ -10,7 +10,7 @@ export const research_temp = {
             conferenceLink: "https://www.ubicomp.org/ubicomp-iswc-2025/iswc-notes-and-briefs/",
             award: "",
             doi: "https://doi.org/10.1145/3715071.3750428",
-            video: "https://youtu.be/QtgZbL7Vb2o",
+            video: "https://youtu.be/Qe2BZs2PvRs",
             pdf: "",
             presentation: "",
             media: "",
