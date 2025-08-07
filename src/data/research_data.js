@@ -18,7 +18,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "research/2025/WHC/whc2025.PNG",
+            poster: "research/2025/WHC/whc2025.png",
             demo: "",
             title: "3D Shape Perception through Spatiotemporal Vibrotactile Patterns with Kinesthetic Feedback",
             authors: "Hojeong Lee, Eun Ho Kim, Sang Ho Yoon",
@@ -51,6 +51,24 @@ export const research_temp = {
             presentation: "",
             media: "",
             highlight: true,
+            category: "Conference / Journal (peer-reviewed)"
+        },
+        {
+            poster: "research/2025/cvpr2025.webp",
+            demo: "",
+            title: "Insightful Instance Features for 3D Instance Segmentation",
+            authors: "Wonseok Roh, Hwanhee Jung, Giljoo Nam, , Dong In Lee, Hyeongcheol Park, Sang Ho Yoon, Jungseock Joo, Sangpil Kim",
+            status: "",
+            conference: "CVPR2025",
+            conferenceLink: "https://cvpr.thecvf.com/",
+            award: "",
+            website: "https://github.com/kuai-lab/cvpr25_IKNE",
+            doi: "",
+            video: "",
+            pdf: "https://openaccess.thecvf.com/content/CVPR2025/papers/Roh_Insightful_Instance_Features_for_3D_Instance_Segmentation_CVPR_2025_paper.pdf",
+            presentation: "",
+            media: "",
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -205,24 +223,6 @@ export const research_temp = {
             status: "ACCEPTED - WILL BE PUBLISED IN",
             conference: "ICCV2025",
             conferenceLink: "https://iccv.thecvf.com/",
-            award: "",
-            website: "",
-            doi: "",
-            video: "",
-            pdf: "",
-            presentation: "",
-            media: "",
-            highlight: false,
-            category: "Preprint"
-        },
-        {
-            poster: "img/icon/preprint.png",
-            demo: "",
-            title: "IKEA: Instance-wise Knowledge Enhancement for 3D Instance Segmentation",
-            authors: "Wonseok Roh, Hwanhee Jung, Giljoo Nam, Dong In Lee, Hyeongcheol Park, Sang Ho Yoon, Jungseock Joo, Sangpil Kim",
-            status: "ACCEPTED - WILL BE PUBLISED IN",
-            conference: "CVPR2025",
-            conferenceLink: "https://cvpr.thecvf.com/",
             award: "",
             website: "",
             doi: "",
