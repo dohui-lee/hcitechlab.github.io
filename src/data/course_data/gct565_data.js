@@ -1,9 +1,178 @@
 export const gct565_data = [
     {
         course_info: {
+            code: "GCT.50065 Fall 2025", 
+            title: "Augmented Humans",
+            desc: "The idea of augmenting the human intellect has long tradition. The advancement of digital technologies has enabled physical, cognitive, and perceptual augmentation of humans. This course will introduce concepts and examples related to augmented humans where technologies enhance human capabilities beyond the individual. Students will learn basic research approach and state-of-art works in the field of augmented humans.",
+        },
+        prof: [
+            {name: "Prof. Sang Ho Yoon", link: "https://sanghoy.com/"},
+        ],
+        ta: [
+            {name: "Jina Kim", link: ""}, 
+            {name: "Dongkyu Kwak", link: ""},
+        ],
+        time: "13:00-14:30pm Mon/Wed",
+        loc: "N5 #2332",
+        submission: {name: "KLMS", link: "https://klms.kaist.ac.kr/"},
+        discussion: {name: "Email", link: ""},
+        announcements: [
+            //{date: "11/25", content: "Final Presentation on 12/9 will be held in N5 #2332."},
+            //{date: "10/3", content: "Course schedule has been updated"},
+            //{date: "9/30", content: "Project Proposal Presentation"},
+            //{date: "9/13", content: "Team Project Announcement"},
+            //{date: "9/6", content: "Paper Seminar Group & Schedule Announcement"},
+            {date: "9/1", content: "Class Starts!"},
+            {date: "8/25", content: "Course website has been updated"},
+        ],
+        projects: [],
+        schedule: [
+            {
+                day1: {
+                    date: "9/1", titles: ["Course Overview"], type: 0,
+                    notes: [{name: "HW#1 Handout (KLMS)", link: ""}],
+                    dues: [],
+                },
+                day2: {
+                    date: "9/3", titles: ["Augmented Interfaces"], type: 0,
+                    notes: [],
+                    dues: [{name: "HW#1 due by 9/5 (Fri) 12pm", link: "https://klms.kaist.ac.kr/"}],
+                },
+            },
+            {
+                day1: {
+                    date: "9/8", titles: ["Project Kick-off Workshop"], type: 1,
+                    notes: [],
+                    dues: [{name: "Team Formation Activity Form due by 9/7 (Sun)", link: ""}, {name: "Paper Seminar Sign Up due by 9/8 (Sun)", link: ""}],
+                },
+                day2: {
+                    date: "9/10", titles: ["Augmented Display"], type: 0,
+                    notes: [{name: "HW#2 Handout (KLMS)", link: ""}],
+                    dues: [{name: "Project Team Sign Up due by 9/11(Thu) 12pm", link: ""}],
+                },
+            },
+            {
+                day1: {
+                    date: "9/15", titles: ["Augmented Sensing I (Optical Sensing & Wearables)"], type: 0,
+                    notes: [],
+                    dues: []
+                },
+                day2: {
+                    date: "9/17", titles: ["Paper Seminar #1", "Project Proposal Q&A"], type: 1,
+                    notes: [],
+                    dues: [{name: "HW#2 due by 9/20 (Fri)", link: "https://klms.kaist.ac.kr/"}, {name: "RR#1 due by 9/22 (Sun)", link: "https://klms.kaist.ac.kr/"}]
+                }
+            },
+            {
+                day1: {date: "9/22", titles: ["Paper Seminar #2", "Augmented Sensing II (On-body Interface)"], type: 0, notes: [], dues: []},
+                day2: {date: "9/24", titles: ["Project Proposal Presentation"], type: 1, notes: [
+                    {name: "Team Project Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
+                ], dues: [
+                    {name: "RR#2 due by 9/29 (Sun)", link: "https://klms.kaist.ac.kr/"}
+                ]}
+            },
+            {
+                day1: {date: "9/29", titles: ["Project Proposal Feedback"], type: 1, notes: [
+                    {name: "Presentation Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
+                ], dues: [
+                    {name: "Proposal Presentation Slides due by 9/30 (Mon)", link: "https://klms.kaist.ac.kr/"}
+                ]},
+                day2: {date: "10/1", titles: ["Machine Learning & Data Mining Toolkit I"], type: 0, notes: [
+                    {name: "Feedback Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
+                ], dues: []}
+            },
+            {
+                day1: {date: "10/6", titles: ["No Class (Chuseok)"], type: 2, notes: [], dues: []},
+                day2: {date: "10/8", titles: ["No Class (Chuseok)"], type: 2, notes: [], dues: []}
+            },
+            {
+                day1: {date: "10/13", titles: ["Technical Evaluation (Recorded)"], type: 0, notes: [
+                    {name: "HW#3 Handout (KLMS)", link: ""}
+                ], dues: [
+                    {name: "RR#3 due by 10/13 (Sun)", link: "https://klms.kaist.ac.kr/"}
+                ]},
+                day2: {date: "10/15", titles: ["Machine Learning & Data Mining Toolkit II","EMG Data Collection"], type: 2, notes: [], dues: []}
+            },
+            {
+                day1: {date: "10/20", titles: [], type: 2, notes: [], dues: []},
+                day2: {date: "10/22", titles: [], type: 2, notes: [], dues: [
+                    {name: "HW#3 due by 10/24 (Thu)", link: "https://klms.kaist.ac.kr/"}
+                ]}
+            },
+            {
+                day1: {date: "10/27", titles: ["Augmented Sensing III (Remote/Ambient)"], type: 0, notes: [
+                    {name: "HW#4 Handout (KLMS)", link: ""}
+                ], dues: []},
+                day2: {date: "10/29", titles: ["Project Progress Discussion (Zoom)"], type: 0, notes: [
+                    {name: "Discussion Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
+                ], dues: []}
+            },
+            {
+                day1: {date: "11/3", titles: ["Project Progress Presentation"], type: 1, notes: [
+                    {name: "Presentation Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
+                ], dues: [
+                    {name: "Progress Presentation Slides due by 11/4 (Mon)", link: "https://klms.kaist.ac.kr/"},
+                    {name: "Audience Evaluation Form due by 11/5 (Tue)", link: "https://klms.kaist.ac.kr/"}
+                ]},
+                day2: {date: "11/5", titles: ["Augmented Sensing III (Remote/Ambient)"], type: 0, notes: [], dues: [
+                    {name: "RR#4 due by 11/7 (Thu)", link: "https://klms.kaist.ac.kr/"},
+                    {name: "HW#4 due by 11/10 (Sun)", link: "https://klms.kaist.ac.kr/"}
+                ]}
+            },
+            {
+                day1: {date: "11/10", titles: ["Project Progress Presentation"], type: 1, notes: [], dues: []},
+                day2: {date: "11/12", titles: ["Project Feedback"], type: 1, notes: [
+                    {name: "Feedback Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
+                ], dues: [
+                    {name: "Progress Report due by 11/15 (Fri)", link: "https://klms.kaist.ac.kr/"},
+                    {name: "Peer Evaluation due by 11/15 (Fri)", link: "https://klms.kaist.ac.kr/"},
+                    {name: "RR#5 due by 11/17 (Sun)", link: "https://klms.kaist.ac.kr/"}
+                ]}
+            },
+            {
+                day1: {date: "11/17", titles: ["Augmented Haptic Feedback"], type: 0, notes: [], dues: []},
+                day2: {date: "11/19", titles: ["Paper Seminar #5", "Quantitative and Qualitative Study"], type: 1, notes: [], dues: []}
+            },
+            {
+                day1: {date: "11/24", titles: ["Paper Seminar #6","Applied Machine Learning for Augmented Humans"], type: 0, notes: [], dues: [
+                    {name: "RR#6 due by 11/24 (Sun)", link: "https://klms.kaist.ac.kr/"}
+                ]},
+                day2: {date: "11/26", titles: ["Paper Seminar #7", "Augmented hearing, taste, and smell"], type: 1, notes: [
+                    {name: "HW#5 Handout (KLMS)", link: ""}
+                ], dues: []}
+            },
+            {
+                day1: {date: "12/1", titles: ["Augmented Humans Storytelling & Design Approaches"], type: 0, notes: [], dues: []},
+                day2: {date: "12/3", titles: ["Project Q&A and Preparation"], type: 1, notes: [], dues: [
+                    {name: "HW#5 due by 12/4 (Wed)", link: "https://klms.kaist.ac.kr/"}
+                ]}
+            },
+            {
+                day1: {date: "12/8", titles: ["Final Presentation"], type: 1, notes: [
+                    {name: "Presentation Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
+                ], dues: [
+                    {name: "Final Presentation Slides due by 12/8 (Sun)", link: "https://klms.kaist.ac.kr/"}
+                ]},
+                day2: {date: "12/10", titles: ["Final Presentation"], type: 1, notes: [
+                    {name: "Feedback Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
+                ], dues: [
+                    {name: "Audience Evaluation Form due by 12/12 (Thu)", link: "https://klms.kaist.ac.kr/"}
+                ]}
+            },
+            {
+                day1: {date: "12/15", titles: ["No class (Finals Week)"], type: 2, notes: [], dues: []},
+                day2: {date: "12/17", titles: ["No class (Finals Week)"], type: 2, notes: [], dues: [
+                    {name: "Final Report due by 12/16 (Tue)", link: "https://klms.kaist.ac.kr/"},
+                    {name: "Peer Evaluation due by 12/16 (Tue)", link: "https://klms.kaist.ac.kr/"}
+                ]}
+            }
+        ]
+    },
+    {
+        course_info: {
             code: "GCT565 Fall 2024", 
             title: "Augmented Humans",
-            desc: "The idea of augmenting the human intellect has long trandition. The advancement of digital technologies has enabled physical, cognitive, and perceptual augmentation of humans. This course will introduce concepts and examples related to augmented humans where technologies enhance human capabilities beyond the individual. Students will learn basic research approach and state-of-art works in the field of augmented humans.",
+            desc: "The idea of augmenting the human intellect has long tradition. The advancement of digital technologies has enabled physical, cognitive, and perceptual augmentation of humans. This course will introduce concepts and examples related to augmented humans where technologies enhance human capabilities beyond the individual. Students will learn basic research approach and state-of-art works in the field of augmented humans.",
         },
         prof: [
             {name: "Prof. Sang Ho Yoon", link: "https://sanghoy.com/"},
@@ -172,7 +341,7 @@ export const gct565_data = [
         course_info: {
             code: "GCT565 Fall 2023", 
             title: "Augmented Humans",
-            desc: "The idea of augmenting the human intellect has long trandition. The advancement of digital technologies has enabled physical, cognitive, and perceptual augmentation of humans. This course will introduce concepts and examples related to augmented humans where technologies enhance human capabilities beyond the individual. Students will learn basic research approach and state-of-art works in the field of augmented humans.",
+            desc: "The idea of augmenting the human intellect has long tradition. The advancement of digital technologies has enabled physical, cognitive, and perceptual augmentation of humans. This course will introduce concepts and examples related to augmented humans where technologies enhance human capabilities beyond the individual. Students will learn basic research approach and state-of-art works in the field of augmented humans.",
         },
         prof: [
             {name: "Prof. Sang Ho Yoon", link: "https://sanghoy.com/"},
@@ -258,7 +427,7 @@ export const gct565_data = [
         course_info: {
             code: "GCT565 Fall 2022", 
             title: "Augmented Humans",
-            desc: "The idea of augmenting the human intellect has long trandition. The advancement of digital technologies has enabled physical, cognitive, and perceptual augmentation of humans. This course will introduce concepts and examples related to augmented humans where technologies enhance human capabilities beyond the individual. Students will learn basic research approach and state-of-art works in the field of augmented humans.",
+            desc: "The idea of augmenting the human intellect has long tradition. The advancement of digital technologies has enabled physical, cognitive, and perceptual augmentation of humans. This course will introduce concepts and examples related to augmented humans where technologies enhance human capabilities beyond the individual. Students will learn basic research approach and state-of-art works in the field of augmented humans.",
         },
         prof: [
             {name: "Prof. Sang Ho Yoon", link: "https://sanghoy.com/"},
@@ -346,7 +515,7 @@ export const gct565_data = [
         course_info: {
             code: "GCT565 Fall 2021", 
             title: "Augmented Humans",
-            desc: "The idea of augmenting the human intellect has long trandition. The advancement of digital technologies has enabled physical, cognitive, and perceptual augmentation of humans. This course will introduce concepts and examples related to augmented humans where technologies enhance human capabilities beyond the individual. Students will learn basic research approach and state-of-art works in the field of augmented humans.",
+            desc: "The idea of augmenting the human intellect has long tradition. The advancement of digital technologies has enabled physical, cognitive, and perceptual augmentation of humans. This course will introduce concepts and examples related to augmented humans where technologies enhance human capabilities beyond the individual. Students will learn basic research approach and state-of-art works in the field of augmented humans.",
         },
         prof: [
             {name: "Prof. Sang Ho Yoon", link: "https://sanghoy.com/"},

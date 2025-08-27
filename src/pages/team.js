@@ -18,7 +18,7 @@ export default function Team() {
         <ProfessorCard />
         <PhdStudents />
         <MasterStudents />
-        {/*<Interns /> */}
+        <Interns />
         <AdministrativeStaff />
         <GradAlumni />
         <InternAlumni />
@@ -111,35 +111,36 @@ const MasterStudents = () => {
   );
 }
 
-// const Interns = () => {
-//   return (
-//     <div className = "row">
-//       <h2 className="card-title">Interns</h2>
-//       {
-//         interns.map(
-//           (member, index) => (
-//             <Fragment key = {index}>
-//               <div key = {index} className = "col-lg-3 col-3" style={{paddingBottom: "20px", paddingLeft: "60px"}}>
-//                 <MemberImage originalImage = {member['img']} hoverImage = {member['hoverImg']}/>
-//               </div>
-//               <div className="col-lg-3 col-3">
-//                   <b style={{fontSize: "24px"}}>{member['name']}</b><br/>
-//                   {member['title']}<br/>
-//                   {member['note']}<br/>
-//                   <div className = "contact-box">
-//                     {member['link'] == "#" ? null : <Link href={member['link']} target="_blank"><i className = "bi bi-house-door-fill"/></Link>}
-//                     {member['mail'] == "#" ? null : <Link href={`mailto:${member['mail']}`} target="_blank"><i className = "bi bi-envelope-fill"/></Link>}
-//                     {member['linkedin'] == "#" ? null : <Link href={member['linkedin']} target="_blank"><i className = "bi bi-linkedin"/></Link>}
-//                 </div>
-//               </div>
-//             </Fragment>
-//           )
-//         )
-//       }
-//     </div>
-    
-//   );
-// }
+const Interns = () => {
+  return (
+    <div className = "container-fluid">
+      <div className = "row justify-content-center">
+      <h1 className="card-title" style = {{textAlign: "center"}}>Interns</h1>
+      {
+        interns.map(
+          (member, index) => (
+            <Fragment key = {index}>
+                <div className = "col-lg-3 col-md-4 col-sm-6 col-12" style = {{textAlign: "center"}}>
+                  <MemberImage originalImage = {member['img']} hoverImage = {member['hoverImg']} />
+                  <b style={{fontSize: "24px"}}>{member['name']} </b><br/>
+                  <span style={{fontSize: "14px"}}>{member['interest'] == "Research Interest" ? "" : member['interest']}</span><br/>
+                  <br/>
+                  <div className = "contact-box">
+                    {member['link'] == "#" ? null : <Link href={member['link']} target="_blank"><i className = "bi bi-house-door-fill"/></Link>}
+                    {member['mail'] == "#" ? null : <Link href={`mailto:${member['mail']}`} target="_blank"><i className = "bi bi-envelope-fill"/></Link>}
+                    {member['linkedin'] == "#" ? null : <Link href={member['linkedin']} target="_blank"><i className = "bi bi-linkedin"/></Link>}
+                  </div>
+                  <span style={{fontSize: "12px"}}>{member['note']}</span><br/><br/>
+                </div>
+              </Fragment>
+          )
+        )
+      }
+    </div>
+    </div>
+
+  );
+}
 
 const AdministrativeStaff = () => {
   return (
