@@ -1,5 +1,19 @@
 import Link from "next/link";
 
+export const postdocs = [
+	{
+        img: "img/Member/JW.jpg",
+        hoverImg: "img/Member/hover_image/JW_hover.jpg",
+        name: "Jinwook Kim",
+        title: "Post-Doc Researcher",
+        interest: "Multimodal Interaction",
+        link: "http://jinwook.me/",
+        mail: "#",
+        linkedin: "https://www.linkedin.com/in/jinwook-kim-779491183/",
+        note: "",
+    }
+];
+
 export const phdStudents = [
     {
         img: "img/Member/YS.jpeg",
