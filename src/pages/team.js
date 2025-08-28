@@ -1,6 +1,6 @@
 import SectionContainer from "@/components/section_container";
 import Link from "next/link";
-import {phdStudents, interns, msStudents, gradAlumni, internAlumni} from "@/data/members_data";
+import {postdocs, phdStudents, interns, msStudents, gradAlumni, internAlumni} from "@/data/members_data";
 import MemberImage from "@/components/member_image";
 import { Fragment } from "react";
 import { ChevronRight, ChevronDown } from "lucide-react";
@@ -16,6 +16,7 @@ export default function Team() {
             </div>
         </div>
         <ProfessorCard />
+        <Postdocs />
         <PhdStudents />
         <MasterStudents />
         <Interns />
@@ -31,7 +32,7 @@ const ProfessorCard = () => {
     <div className = "container-fluid">
       <div className = "row justify-content-center">
         <h1 className="card-title" style = {{textAlign: "center"}}>Faculty</h1>
-        <div className="col-lg-3 col-md-4 col-sm-6 col-12" style={{paddingBottom: "20px"}}>
+        <div className="col-lg-3 col-md-4 col-sm-6 col-12" style={{paddingBottom: "100px"}}>
           <MemberImage originalImage = "img/Member/Sang.jpg" hoverImage = "main_icon.png" />
         </div>
         <div className="col-lg-6 col-md-6 col-sm-6 col-12" style={{textAlign: "left", paddingBottom: "20px"}}>
@@ -46,6 +47,36 @@ const ProfessorCard = () => {
               <Link href="https://www.linkedin.com/in/sanghoy" target="_blank"><i className = "bi bi-linkedin"/></Link>
             </div>
         </div>
+      </div>
+    </div>
+  );
+}
+
+const Postdocs = () => {
+  return (
+    <div className = "container-fluid">
+      <div className = "row justify-content-center">
+      <h1 className="card-title" style = {{textAlign: "center"}}>Post-Doc Researchers</h1>
+        {
+          postdocs.map(
+            (member, index) => (
+              <Fragment key = {index}>
+                <div className = "col-lg-3 col-md-4 col-sm-6 col-12" style = {{textAlign: "center"}}>
+                  <MemberImage originalImage = {member['img']} hoverImage = {member['hoverImg']} />
+                  <b style={{fontSize: "24px"}}>{member['name']} </b><br/>
+                  <span style={{fontSize: "14px"}}>{member['interest'] == "Research Interest" ? "" : member['interest']}</span><br/>
+                  <br/>
+                  <div className = "contact-box">
+                    {member['link'] == "#" ? null : <Link href={member['link']} target="_blank"><i className = "bi bi-house-door-fill"/></Link>}
+                    {member['mail'] == "#" ? null : <Link href={`mailto:${member['mail']}`} target="_blank"><i className = "bi bi-envelope-fill"/></Link>}
+                    {member['linkedin'] == "#" ? null : <Link href={member['linkedin']} target="_blank"><i className = "bi bi-linkedin"/></Link>}
+                  </div>
+                  <span style={{fontSize: "12px"}}>{member['note']}</span><br/><br/>
+                </div>
+              </Fragment>
+            )
+          )
+        }
       </div>
     </div>
   );
