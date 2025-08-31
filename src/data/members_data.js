@@ -364,7 +364,15 @@ export const gradAlumni = [
         title: "M.S. Student",
         period: "Summer 2022 - Summer 2024",
         thesisLink: "#",
-        current: "",
+        current: (
+            <span className="type">
+                {" "}
+                (now Engineer @{" "}
+                <Link href="https://www.samsung.com/sec/" target="_blank">
+                    Samsung Electronics
+                </Link>{" "})
+            </span>
+        ),
     },
     {
         name: "Kyungeun Jung",
