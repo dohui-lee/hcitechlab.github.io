@@ -18,7 +18,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "research/2025/ISMAR2025/Poster_Gaze.PNG",
+            poster: "research/2025/ISMAR2025/Poster_Gaze.png",
             demo: "",
             title: "Task-Oriented Hand Gesture Mapping with Gaze-Hand Interactions in VR",
             authors: "Min-yung Kim, Kyoungwhan Mheen, Choongho Chung, Sung-Hee Lee, Sang Ho Yoon",
@@ -36,7 +36,7 @@ export const research_temp = {
             category: "Poster / Demo / Workshop"
         },
         {
-            poster: "research/2025/ISMAR2025/Poster_Glove.PNG",
+            poster: "research/2025/ISMAR2025/Poster_Glove.png",
             demo: "",
             title: "Effect of Movement Velocity and Flexion Angle on Realistic Haptic Reproduction",
             authors: "DongKyu Kwak, Hojeong Lee, Sang Ho Yoon",
@@ -54,7 +54,7 @@ export const research_temp = {
             category: "Poster / Demo / Workshop"
         },
         {
-            poster: "research/2025/ISMAR2025/VisuoTactile.PNG",
+            poster: "research/2025/ISMAR2025/VisuoTactile.png",
             demo: "",
             title: "Visuo-Tactile Feedback with Hand Outline Styles for Modulating Affective Roughness Perception",
             authors: "Minju Baeck, Yoonseok Shin, Dooyoung Kim, Hyunjin Lee, Woontack Woo*, Sang Ho Yoon*",
