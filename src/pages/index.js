@@ -30,7 +30,8 @@ export default function Home() {
                 <iframe
                   style={{ width: "100%", height: "500px", border: "none" }}
                   className="mt-4"
-                  src="https://www.youtube.com/embed/videoseries?list=PLsnyS9wZul9ZVvpTg3ElUwnnQQ7uiD8Uj"
+                  src="https://www.youtube.com/embed/TTPGI4IXRyk"
+                  
                   allowFullScreen
                 ></iframe>
               </div>
@@ -89,7 +90,7 @@ const NewsCard = () => {
       <div className="card h-100">
         <div className="card-body">
           <h2 className="card-title">News </h2>
-          <div className="scroll-box" style={{ height: '400px' }}>
+          <div className="scroll-box" style={{ height: '500px' }}>
             <div className="scroll">
               <div className="row news_item mt-4">
               {
