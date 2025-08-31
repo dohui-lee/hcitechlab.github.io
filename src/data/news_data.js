@@ -20,7 +20,49 @@ export const news = [
         title: "KCCV 2025 Participation",
         date: "Aug 1 2025",
         content: <dev>Our lab participated in KCCV'25 in Busan. Hanseok presented our <Link href="https://pimforce.hcitech.org/" target="_blank">NeurIPS'24 paper</Link>.</dev>,
-        images: []
+        images: ["img/Lab/2508/KCCV1.jpg","img/Lab/2508/KCCV2.jpg"]
+    },
+    {
+        icon: "img/icon/project.png",
+        title: "Research Collaboration (Visit from Beihang, Tsinghua, SUS Tech)",
+        date: "July 15 2025",
+        content: <dev>Visitors from Chinese institutions including Prof. Dangxiao Wang, Prof. Yun Wang, Prof. Yang Jiao, Prof. Seungwoo Je visited us!</dev>,
+        images: ["img/Lab/2507/Beihang1.jpg","img/Lab/2507/Beihang2.jpg","img/Lab/2507/Beihang4.jpg"]
+    },
+    {
+        icon: "img/icon/conf.png",
+        title: "WHC 2025 Participation",
+        date: "July 8 2025",
+        content: <dev>Our lab participated in WHC'25 in Suwon. Hojeong presented a paper and Eunho, Murad, Kun-woo, and Youjin presented demos/posters.</dev>,
+        images: ["img/Lab/2507/WHC4.jpg","img/Lab/2507/WHC1.jpg","img/Lab/2507/WHC2.jpg"]
+    },
+    {
+        icon: "img/icon/conf.png",
+        title: "KCC 2025 Participation",
+        date: "July 1 2025",
+        content: <dev>Our lab participated in KCC'25 in Jeju. Our lab had a workshop on Multimodal Haptic Interface. Yubin and Dohui received Outstanding Paper Awards.</dev>,
+        images: ["img/Lab/2507/KCC.jpg"]
+    },
+    {
+        icon: "img/icon/speaker.png",
+        title: "Lab Activity (Sports Day)",
+        date: "Jun 18 2025",
+        content: "Lab Gathering with Sports Activity.",
+        images: ["img/Lab/2506/Lab1.jpg","img/Lab/2506/Lab2.jpg","img/Lab/2506/Lab3.jpg"]
+    },
+    {
+        icon: "img/icon/project.png",
+        title: "Research Collaboration (ETRI)",
+        date: "Jun 5 2025",
+        content: <dev>Out lab participated in ETRI Conference 2025. Hojeong & Dongkyu presented our haptic glove project with ETRI.</dev>,
+        images: ["img/Lab/2506/ETRI1.png","img/Lab/2506/ETRI2.png"]
+    },
+    {
+        icon: "img/icon/project.png",
+        title: "Research Collaboration (Visit from ASU)",
+        date: "Jun 4 2025",
+        content: <dev>Prof. Heejin Jeong from Arizona State University's <Link href="https://himer.lab.asu.edu/" target="_blank">HiMER Lab</Link> visited us!</dev>,
+        images: ["img/Lab/2506/ASU1.jpeg","img/Lab/2506/ASU2.jpeg","img/Lab/2506/ASU3.jpeg"]
     },
     {
         icon: "img/icon/conf.png",
@@ -82,14 +124,21 @@ export const news = [
         icon: "img/icon/paper2.jpg",
         title: "A paper accepted to WHC 2025",
         date: "Apr 18 2025",
-        content: <div>Our paper "3D Shape Perception through Spatiotemporal Vibrotactile Patterns with Kinesthetic Feedback" led by Hojeong and Eun Ho is accepted to <Link href="https://2025.worldhaptics.org/" target="_blank">IEEE World Haptics Conference (WHC)</Link>.</div>,
+        content: <div>Our paper <strong>3D Shape Perception through Spatiotemporal Vibrotactile Patterns with Kinesthetic Feedback</strong> led by Hojeong and Eun Ho is accepted to <Link href="https://2025.worldhaptics.org/" target="_blank">IEEE World Haptics Conference (WHC)</Link>.</div>,
         images: []
     },
     {
         icon: "img/icon/paper2.jpg",
         title: "A paper accepted to IMWUT (UbiComp 2025)",
         date: "Apr 3 2025",
-        content: <div>Our paper "UltraBoard: Always-Available Wearable Ultrasonic Mid-air Haptic Interface for Responsive and Robust VR Inputs" led by Changhyeon and Yubin is accepted to <Link href="https://dl.acm.org/journal/imwut" target="_blank">Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)</Link>.</div>,
+        content: <div>Our paper <strong>UltraBoard: Always-Available Wearable Ultrasonic Mid-air Haptic Interface for Responsive and Robust VR Inputs</strong> led by Changhyeon and Yubin is accepted to <Link href="https://dl.acm.org/journal/imwut" target="_blank">Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)</Link>.</div>,
+        images: []
+    },
+    {
+        icon: "img/icon/project.png",
+        title: "New Research Project",
+        date: "Apr 1 2025",
+        content: <><strong>Generative Haptics and Fine Response Inference for Flexible Tactile Interfaces</strong> supported by Institute for Information & communication Technology Planning & evaluation (IITP) for 4 years.</>,
         images: []
     },
     {
@@ -103,7 +152,7 @@ export const news = [
         icon: "img/icon/award.png",
         title: "Two Honorable Mention Award for CHI 2025",
         date: "Mar 28 2025",
-        content: (<>Our papers "ChoreoCraft: In-situ Crafting of Choreography in Virtual Reality through Creativity Support Tool" led by Kyungeun & Hyunyoung and "T2IRay: Design of Thumb-to-Index based Indirect Pointing for Continuous and Robust AR/VR Input" led by Jina win Honorable Mention Award for <Link href="https://chi2025.acm.org/" target="_blank">CHI 2025</Link>!'</>),
+        content: (<>Our papers <strong>ChoreoCraft: In-situ Crafting of Choreography in Virtual Reality through Creativity Support Tool</strong> led by Kyungeun & Hyunyoung and <strong>T2IRay: Design of Thumb-to-Index based Indirect Pointing for Continuous and Robust AR/VR Input</strong> led by Jina win Honorable Mention Award for <Link href="https://chi2025.acm.org/" target="_blank">CHI 2025</Link>!'</>),
         images: [],
         
     },
@@ -135,7 +184,7 @@ export const news = [
         title: "A paper accepted to IEEE TVCG",
         date: "Jan 26 2025",
         content: (
-            <>Our paper "Neck Goes VRrr: Reducing Rotation-Induced Virtual Reality Sickness through Neck Muscle Vibrations" led by Kun-Woo is accepted to <Link href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945" target="_blank">IEEE Transactions on Visualization and Computer Graphics (TVCG)</Link>.</>
+            <>Our paper <strong>Neck Goes VRrr: Reducing Rotation-Induced Virtual Reality Sickness through Neck Muscle Vibrations</strong> led by Kun-Woo is accepted to <Link href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945" target="_blank">IEEE Transactions on Visualization and Computer Graphics (TVCG)</Link>.</>
         ),
         images: [],
         
@@ -238,7 +287,7 @@ export const news = [
         icon: "img/icon/paper2.jpg",
         title: "A paper accepted to NeurIPS 2024",
         date: "Sep 26 2024",
-        content: <div>Our paper "Posture-Informed Muscular Force Learning for Robust Hand Pressure Estimation" led by Kyungjin and Junghoon is accepted to <Link href="https://neurips.cc/" target="_blank">NeurIPS2024</Link>.</div>,
+        content: <div>Our paper <strong>Posture-Informed Muscular Force Learning for Robust Hand Pressure Estimation</strong> led by Kyungjin and Junghoon is accepted to <Link href="https://neurips.cc/" target="_blank">NeurIPS2024</Link>.</div>,
         images: []
     },
     {
@@ -259,14 +308,14 @@ export const news = [
         icon: "img/icon/paper2.jpg",
         title: "A paper accepted to IMWUT (UbiComp 2024)",
         date: "Aug 10 2024",
-        content: <div>Our paper "EStatiG: Wearable Haptic Feedback with Multi-Phalanx Electrostatic Brake for Enhanced Object Perception in VR" led by Nicha and Hojeong is accepted to <Link href="https://dl.acm.org/journal/imwut" target="_blank">Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)</Link>.</div>,
+        content: <div>Our paper <strong>EStatiG: Wearable Haptic Feedback with Multi-Phalanx Electrostatic Brake for Enhanced Object Perception in VR</strong> led by Nicha and Hojeong is accepted to <Link href="https://dl.acm.org/journal/imwut" target="_blank">Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)</Link>.</div>,
         images: []
     },
     {
         icon: "img/icon/paper2.jpg",
         title: "A paper accepted to ISMAR 2024",
         date: "Aug 10 2024",
-        content: <div>Our paper "ThermicVib: Enabling Dynamic Thermal Sensation with Multimodal Haptic Glove for Thermal-Responsive Interaction" led by Hyung Il is accepted to <Link href="https://ieeeismar.org/" target="_blank">IEEE ISMAR2024</Link>.</div>,
+        content: <div>Our paper <strong>ThermicVib: Enabling Dynamic Thermal Sensation with Multimodal Haptic Glove for Thermal-Responsive Interaction</strong> led by Hyung Il is accepted to <Link href="https://ieeeismar.org/" target="_blank">IEEE ISMAR2024</Link>.</div>,
         images: []
     },
     {
@@ -341,9 +390,9 @@ export const news = [
     },
     {
         icon: "img/icon/project.png",
-        title: "Research Collaboration",
+        title: "Research Collaboration (Visit from Hyundai Motor Company)",
         date: "Jan 26 2024",
-        content: "HMC Research Team visited HCI Tech Lab for potential research collaboration.",
+        content: "Hyundai Motor Company (HMC) Research Team visited HCI Tech Lab for potential research collaboration.",
         images: ["img/Lab/2402/HMC1.jpg"]
     },
     {
