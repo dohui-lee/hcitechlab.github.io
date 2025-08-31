@@ -135,21 +135,7 @@ export const phdStudents = [
             </>
         ),
     },
-];
-
-export const msStudents = [
-    {
-        img: "img/Member/HH.jpg",
-        hoverImg: "img/Member/hover_image/HH_hover.jpg",
-        name: "Hyunyoung Han",
-        title: "M.S. Student",
-        interest: "Research Interest",
-        link: "https://sites.google.com/view/hyhan/home",
-        mail: "#",
-        linkedin: "#",
-        note: "",
-    },
-    {
+        {
         img: "img/Member/KWS.jpg",
         hoverImg: "img/Member/hover_image/KWS_hover.jpg",
         name: "Kun-Woo Song",
@@ -170,7 +156,10 @@ export const msStudents = [
         mail: "leeho@kaist.ac.kr",
         linkedin: "https://www.linkedin.com/in/leeho99/",
         note: "",
-    },
+    }
+];
+
+export const msStudents = [
     {
         img: "img/Member/FL.jpg",
         hoverImg: "main_icon.png",
@@ -310,11 +299,44 @@ export const interns = [
 
 export const gradAlumni = [
     {
+        name: "Hojeong Lee",
+        nameLink: "#",
+        title: "M.S. Student",
+        period: "Fall 2023 - Summer 2025",
+        thesisLink: "#",
+        current: "(now Ph.D Student @ HCI Tech Lab, KAIST)",
+    },
+    {
+        name: "Kun-woo Song",
+        nameLink: "#",
+        title: "M.S. Student",
+        period: "Fall 2023 - Summer 2025",
+        thesisLink: "#",
+        current: "(now Ph.D Student @ HCI Tech Lab, KAIST)",
+    },
+    {
+        name: "Hyunyoung Han",
+        nameLink: "#",
+        period: "Fall 2023 - Summer 2025",
+        title: "M.S. Student",
+        thesisLink: "#",
+        current: (
+            <span className="type">
+                {" "}
+                (now Ph.D. Student @{" "}
+                <Link href="https://wit.kaist.ac.kr/" target="_blank">
+                    WIT Lab
+                </Link>
+                , KAIST)
+            </span>
+        ),
+    },
+    {
         name: "Dongkyu Kwak",
         nameLink: "#",
         title: "M.S. Student",
         period: "Spring 2023 - Winter 2025",
-        thesisLink: "#",
+        thesisLink: "https://koasas.kaist.ac.kr/handle/10203/332637",
         current: "(now Ph.D Student @ HCI Tech Lab, KAIST)",
     },
     {
@@ -322,7 +344,7 @@ export const gradAlumni = [
         nameLink: "#",
         title: "M.S. Student",
         period: "Spring 2023 - Winter 2025",
-        thesisLink: "#",
+        thesisLink: "https://koasas.kaist.ac.kr/handle/10203/332810",
         current: "(now Ph.D Student @ HCI Tech Lab, KAIST)",
     },
     {
@@ -330,7 +352,7 @@ export const gradAlumni = [
         nameLink: "#",
         title: "M.S. Student",
         period: "Spring 2023 - Winter 2025",
-        thesisLink: "#",
+        thesisLink: "https://koasas.kaist.ac.kr/handle/10203/332638",
         current: "(now Ph.D Student @ HCI Tech Lab, KAIST)",
     },
     {
@@ -338,7 +360,7 @@ export const gradAlumni = [
         nameLink: "#",
         title: "M.S. Student",
         period: "Spring 2023 - Winter 2025",
-        thesisLink: "#",
+        thesisLink: "https://koasas.kaist.ac.kr/handle/10203/332811",
         current: "(now Ph.D Student @ HCI Tech Lab, KAIST)",
     },
     {
@@ -346,7 +368,7 @@ export const gradAlumni = [
         nameLink: "https://mikigom.github.io/",
         title: "M.S. Student",
         period: "Spring 2023 - Winter 2025",
-        thesisLink: "#",
+        thesisLink: "https://koasas.kaist.ac.kr/handle/10203/332641",
         current: (
             <span className="type">
                 {" "}
@@ -363,11 +385,11 @@ export const gradAlumni = [
         nameLink: "https://nichav.com/",
         title: "M.S. Student",
         period: "Summer 2022 - Summer 2024",
-        thesisLink: "#",
+        thesisLink: "https://koasas.kaist.ac.kr/handle/10203/332913",
         current: (
             <span className="type">
                 {" "}
-                (now Engineer @{" "}
+                (now Staff Engineer @{" "}
                 <Link href="https://www.samsung.com/sec/" target="_blank">
                     Samsung Electronics
                 </Link>{" "})
@@ -379,7 +401,7 @@ export const gradAlumni = [
         nameLink: "#",
         title: "M.S. Student",
         period: "Winter 2022 - Summer 2024",
-        thesisLink: "#",
+        thesisLink: "https://koasas.kaist.ac.kr/handle/10203/331878",
         current: "(now Ph.D Student @ HCI Tech Lab, KAIST)",
     },
     {
@@ -387,7 +409,7 @@ export const gradAlumni = [
         nameLink: "#",
         title: "M.S. Student",
         period: "Fall 2022 - Summer 2024",
-        thesisLink: "#",
+        thesisLink: "https://koasas.kaist.ac.kr/handle/10203/331880",
         current: "(now Ph.D Student @ HCI Tech Lab, KAIST)",
     },
     {
@@ -395,7 +417,7 @@ export const gradAlumni = [
         nameLink: "#",
         title: "M.S. Student",
         period: "Winter 2022 - Summer 2024",
-        thesisLink: "#",
+        thesisLink: "https://koasas.kaist.ac.kr/handle/10203/321404",
         current: "(now Ph.D Student @ HCI Tech Lab, KAIST)",
     },
     {
@@ -403,7 +425,7 @@ export const gradAlumni = [
         nameLink: "#",
         title: "M.S. Student",
         period: "Spring 2022 - Summer 2023",
-        thesisLink: "/Thesis/Youjin.pdf",
+        thesisLink: "https://koasas.kaist.ac.kr/handle/10203/320572",
         current: "(now Ph.D Student @ HCI Tech Lab, KAIST)",
     },
     {
@@ -411,7 +433,7 @@ export const gradAlumni = [
         nameLink: "#",
         title: "M.S. Student",
         period: "Spring 2022 - Winter 2023",
-        thesisLink: "/Thesis/Minjae.pdf",
+        thesisLink: "https://koasas.kaist.ac.kr/handle/10203/308304",
         current: "",
     },
 ];
@@ -508,21 +530,21 @@ export const internAlumni = [
         nameLink: "#",
         title: "Undergraduate Intern (KAIST)",
         period: "Spring-Summer 2023",
-        current: "(now M.S. Student @ HCI Tech Lab, KAIST)",
+        current: "(now Ph.D. Student @ HCI Tech Lab, KAIST)",
     },
     {
         name: "Hyunyoung Han",
         nameLink: "#",
         title: "Undergraduate Intern (DGIST)",
         period: "Spring-Summer 2023",
-        current: "(now M.S. Student @ HCI Tech Lab, KAIST)",
+        current: "(now Ph.D. Student @ WIT Lab, KAIST)",
     },
     {
         name: "Hojeon Lee",
         nameLink: "#",
         title: "Undergraduate Intern (SNU)",
         period: "Summer 2023",
-        current: "(now M.S. Student @ HCI Tech Lab, KAIST)",
+        current: "(now Ph.D. Student @ HCI Tech Lab, KAIST)",
     },
     {
         name: "Hyung Wook Yi",
@@ -574,11 +596,10 @@ export const internAlumni = [
         current: (
             <span className="type">
                 {" "}
-                (now M.S. Student @{" "}
-                <Link href="https://makinteract.kaist.ac.kr/" target="_blank">
-                    MAKinteract Lab
-                </Link>
-                , KAIST)
+                (now Staff Engineer @{" "}
+                <Link href="www.samsung.com" target="_blank">
+                    Samsung Electronics
+                </Link>)
             </span>
         ),
     },
