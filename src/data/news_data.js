@@ -2,6 +2,27 @@ import Link from 'next/link';
 
 export const news = [
     {
+        icon: "img/icon/star.png",
+        title: "Student Fellowship",
+        date: "Aug 28 2025",
+        content: "Dongkyu & Kyungeun are selected for 'PhD Student Research Grant' from the National Research Foundation of Korea.",
+        images: []
+    },
+    {
+        icon: "img/icon/star.png",
+        title: "Student Fellowship",
+        date: "Aug 20 2025",
+        content: "Kyungeun is selected for 'Research Grant for U.S. Visiting Women Researchers' from the National Research Foundation of Korea.",
+        images: []
+    },
+    {
+        icon: "img/icon/conf.png",
+        title: "KCCV 2025 Participation",
+        date: "Aug 1 2025",
+        content: <dev>Our lab participated in KCCV'25 in Busan. Hanseok presented our <Link href="https://pimforce.hcitech.org/" target="_blank">NeurIPS'24 paper</Link>.</dev>,
+        images: []
+    },
+    {
         icon: "img/icon/conf.png",
         title: "CHI 2025 Participation",
         date: "May 1 2025",
