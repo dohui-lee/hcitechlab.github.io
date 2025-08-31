@@ -14,7 +14,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highlight: true,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -394,7 +394,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highlight: false,
+            highlight: true,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
@@ -520,7 +520,7 @@ export const research_temp = {
             pdf: "https://rdcu.be/dvA5W",
             presentation: "",
             media: "",
-            highlight: true,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
