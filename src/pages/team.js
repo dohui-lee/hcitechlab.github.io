@@ -56,7 +56,7 @@ const Postdocs = () => {
   return (
     <div className = "container-fluid">
       <div className = "row justify-content-center">
-      <h1 className="card-title" style = {{textAlign: "center"}}>Post-Doc Researchers</h1>
+      <h1 className="card-title" style = {{textAlign: "center"}}>Post-Doc Researcher</h1>
         {
           postdocs.map(
             (member, index) => (
@@ -86,7 +86,7 @@ const PhdStudents = () => {
   return (
     <div className = "container-fluid">
       <div className = "row justify-content-center">
-      <h1 className="card-title" style = {{textAlign: "center"}}>PhD Students</h1>
+      <h1 className="card-title" style = {{textAlign: "center"}}>PhD Student</h1>
         {
           phdStudents.map(
             (member, index) => (
@@ -116,7 +116,7 @@ const MasterStudents = () => {
   return (
     <div className = "container-fluid">
       <div className = "row justify-content-center">
-      <h1 className="card-title" style = {{textAlign: "center"}}>MS Students</h1>
+      <h1 className="card-title" style = {{textAlign: "center"}}>MS Student</h1>
         {
           msStudents.map(
             (member, index) => (
