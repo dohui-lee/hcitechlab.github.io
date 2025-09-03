@@ -43,12 +43,12 @@ export const gct565_data = [
                 day1: {
                     date: "9/8", titles: ["Project Kick-off Workshop"], type: 1,
                     notes: [],
-                    dues: [{name: "Team Formation Activity Form due by 9/7 (Sun)", link: ""}, {name: "Paper Seminar Sign Up due by 9/8 (Sun)", link: ""}],
+                    dues: [{name: "Team Formation Activity Form due by 9/7 (Sun)", link: ""}, {name: "Paper Seminar Sign Up due by 9/7 (Sun)", link: ""}],
                 },
                 day2: {
                     date: "9/10", titles: ["Augmented Display"], type: 0,
                     notes: [],
-                    dues: [{name: "Project Team Sign Up due by 9/10(Thu) 12pm", link: ""}],
+                    dues: [{name: "Project Team Sign Up due by 9/10(Wed) 12pm", link: ""}],
                 },
             },
             {
