@@ -58,14 +58,15 @@ export const gct565_data = [
                     dues: [{name: "RR#1 due by 9/14 (Sun)", link: "https://klms.kaist.ac.kr/"}]
                 },
                 day2: {
-                    date: "9/17", titles: ["Paper Seminar #1", "Project Proposal Q&A"], type: 1,
+                    date: "9/17", titles: ["Augmented Sensing II (Wearables & On-body Interface)"], type: 0,
                     notes: [],
                     dues: [
                     {name: "RR#2 due by 9/19 (Fri)", link: "https://klms.kaist.ac.kr/"}]
                 }
             },
             {
-                day1: {date: "9/22", titles: ["Augmented Sensing II (Wearables & On-body Interface)", "Paper Seminar #2"], type: 1, notes: [], dues: []},
+                day1: {date: "9/22", titles: ["Paper Seminar #1","Project Proposal Q&A"], type: 1, notes: [], 
+                       dues: [{name: "HW#2 due by 9/21 (Sun) 11:59pm", link: "https://klms.kaist.ac.kr/"}]},
                 day2: {date: "9/24", titles: ["Project Proposal Presentation"], type: 1, notes: [], dues: [{name: "Proposal Presentation Slides due by 9/24 (Wed)", link: "https://klms.kaist.ac.kr/"}]}
             },
             {
@@ -88,7 +89,7 @@ export const gct565_data = [
                 ], dues: [
                     {name: "RR#3 due by 10/13 (Sun)", link: "https://klms.kaist.ac.kr/"}
                 ]},
-                day2: {date: "10/15", titles: ["Technical Evaluation","Paper Seminar #3"], type: 1, notes: [], dues: [                    {name: "HW#3 due by 10/19 (Fri)", link: "https://klms.kaist.ac.kr/"}
+                day2: {date: "10/15", titles: ["Technical Evaluation","Paper Seminar #2"], type: 1, notes: [], dues: [                    {name: "HW#3 due by 10/19 (Fri)", link: "https://klms.kaist.ac.kr/"}
 ]}
             },
             {
@@ -99,7 +100,7 @@ export const gct565_data = [
                 day1: {date: "10/27", titles: ["Machine Learning & Data Mining Toolkit II","EMG Data Collection"], type: 0, notes: [
                     {name: "HW#4 Handout (KLMS)", link: ""}
                 ], dues: []},
-                day2: {date: "10/29", titles: ["Paper Seminar #4"], type: 1, notes: [
+                day2: {date: "10/29", titles: ["Paper Seminar #3"], type: 1, notes: [
                     {name: "Discussion Schedule", link: ""}
                 ], dues: []}
             },
@@ -117,7 +118,7 @@ export const gct565_data = [
             },
             {
                 day1: {date: "11/10", titles: ["Augmented Haptic Feedback"], type: 0, notes: [], dues: []},
-                day2: {date: "11/12", titles: ["Quantitative and Qualitative Study","Paper Seminar #5"], type: 1, notes: [
+                day2: {date: "11/12", titles: ["Quantitative and Qualitative Study","Paper Seminar #4"], type: 1, notes: [
                     {name: "Feedback Schedule", link: ""}
                 ], dues: [
                     {name: "Progress Report due by 11/15 (Fri)", link: "https://klms.kaist.ac.kr/"},
@@ -127,13 +128,13 @@ export const gct565_data = [
             },
             {
                 day1: {date: "11/17", titles: ["Augmented Machine Learning for Augmented Humans"], type: 0, notes: [], dues: []},
-                day2: {date: "11/19", titles: ["Paper Seminar #6"], type: 1, notes: [], dues: []}
+                day2: {date: "11/19", titles: ["Paper Seminar #5"], type: 1, notes: [], dues: []}
             },
             {
                 day1: {date: "11/24", titles: ["Augmented hearing, taste, and smell"], type: 0, notes: [], dues: [
                     {name: "RR#6 due by 11/24 (Sun)", link: "https://klms.kaist.ac.kr/"}
                 ]},
-                day2: {date: "11/26", titles: ["Paper Seminar #7"], type: 1, notes: [
+                day2: {date: "11/26", titles: ["Paper Seminar #6"], type: 1, notes: [
                     {name: "HW#5 Handout (KLMS)", link: ""}
                 ], dues: []}
             },
