@@ -61,7 +61,7 @@ export const gct565_data = [
                     date: "9/17", titles: ["Augmented Sensing II (Wearables & On-body Interface)"], type: 0,
                     notes: [],
                     dues: [
-                    {name: "RR#1 due by 9/19 (Fri)", link: "https://klms.kaist.ac.kr/"}]
+                    {name: "RR#1 due by 9/17 (Wed)", link: "https://klms.kaist.ac.kr/"}]
                 }
             },
             {
