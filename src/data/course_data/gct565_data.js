@@ -55,7 +55,7 @@ export const gct565_data = [
                 day1: {
                     date: "9/15", titles: ["Augmented Sensing I (Optical Sensing)"], type: 0,
                     notes: [{name: "HW#2 Handout (KLMS)", link: ""}],
-                    dues: [{name: }]
+                    dues: [{}],
                 },
                 day2: {
                     date: "9/17", titles: ["Augmented Sensing II (Wearables & On-body Interface)"], type: 0,
