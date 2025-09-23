@@ -11,6 +11,17 @@ export const postdocs = [
         mail: "#",
         linkedin: "https://www.linkedin.com/in/jinwook-kim-779491183/",
         note: "",
+    },
+    {
+        img: "img/Member/KK.JPG",
+        hoverImg: "main_icon.png",
+        name: "Keunwook Kim",
+        title: "Industrial Designer / Creative Technologist",
+        interest: "Physical Interface Design",
+        link: "https://kimkeunwook.com",
+        mail: "#",
+        linkedin: "https://www.linkedin.com/in/kimkeunwook/",
+        note: "",
     }
 ];
 

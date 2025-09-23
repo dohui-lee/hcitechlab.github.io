@@ -56,7 +56,7 @@ const Postdocs = () => {
   return (
     <div className = "container-fluid">
       <div className = "row justify-content-center">
-      <h1 className="card-title" style = {{textAlign: "center"}}>Post-Doc Researcher</h1>
+      <h1 className="card-title" style = {{textAlign: "center"}}>Post-Doc Researcher & Collaborator</h1>
         {
           postdocs.map(
             (member, index) => (
@@ -187,8 +187,20 @@ const AdministrativeStaff = () => {
           Tel: +82-42-350-5914<br/>
           Office: N25 2F #3241
         </div>
+
+        <div className = "col-lg-3 col-md-4 col-sm-6 col-12" style={{paddingBottom: "20px"}}>
+          <MemberImage originalImage = "main_icon.png" hoverImage = "main_icon.png" />
+        </div>
+        <div className="col-lg-3 col-md-4 col-sm-6 col-12" style={{textAlign: "left"}}>
+          <b style={{fontSize: "24px"}}>EunJi Cho</b><br/>
+          <br/>
+          Tel: +82-42-350-5915<br/>
+          Office: N25 2F rgba(1, 1, 1, 0.07)
+        </div>
       </div>
+      
     </div>
+    
     
   );
 }
