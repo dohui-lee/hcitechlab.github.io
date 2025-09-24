@@ -189,7 +189,7 @@ const AdministrativeStaff = () => {
         </div>
 
         <div className = "col-lg-3 col-md-4 col-sm-6 col-12" style={{paddingBottom: "20px"}}>
-          <MemberImage originalImage = "main_icon.png" hoverImage = "main_icon.png" />
+          <MemberImage originalImage = "img/Member/EC.png" hoverImage = "main_icon.png" />
         </div>
         <div className="col-lg-3 col-md-4 col-sm-6 col-12" style={{textAlign: "left"}}>
           <b style={{fontSize: "24px"}}>EunJi Cho</b><br/>
