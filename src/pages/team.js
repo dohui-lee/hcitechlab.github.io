@@ -195,7 +195,7 @@ const AdministrativeStaff = () => {
           <b style={{fontSize: "24px"}}>EunJi Cho</b><br/>
           <br/>
           Tel: +82-42-350-5915<br/>
-          Office: N25 2F rgba(1, 1, 1, 0.07)
+          Office: N25 2F #3241
         </div>
       </div>
       
