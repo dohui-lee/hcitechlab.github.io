@@ -2,6 +2,13 @@ import Link from 'next/link';
 
 export const news = [
     {
+        icon: "img/icon/conf.png",
+        title: "UIST 2025 Participation",
+        date: "Sep 29 2025",
+        content: <dev>Our lab participated in UIST'25 in Busan. Youjin, Hanseok, and Donkyu presented demos. Eunho and Rachel presented SIC demo.</dev>,
+        images: ["img/Lab/2509/UIST1.jpg","img/Lab/2509/UIST2.jpg","img/Lab/2509/UIST3.jpg","img/Lab/2509/UIST4.jpg"]
+    },
+    {
         icon: "img/icon/star.png",
         title: "Student Fellowship",
         date: "Aug 28 2025",
