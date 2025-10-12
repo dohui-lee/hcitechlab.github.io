@@ -232,7 +232,7 @@ export const gct565_data = [
                 day2: {date: "9/25", titles: ["Paper Seminar #1", "Project Proposal Q&A"], type: 1, notes: [
                     {name: "Team Project Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
                 ], dues: [
-                    {name: "RR#2 due by 9/29 (Sun)", link: "https://klms.kaist.ac.kr/"}
+                    {}
                 ]}
             },
             {
