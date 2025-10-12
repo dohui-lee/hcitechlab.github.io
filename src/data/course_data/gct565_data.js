@@ -86,9 +86,7 @@ export const gct565_data = [
             {
                 day1: {date: "10/13", titles: ["Augmented Sensing III (Remote/Ambient)"], type: 0, notes: [
                     
-                ], dues: [
-                    {name: "RR#3 due by 10/13 (Sun)", link: "https://klms.kaist.ac.kr/"}
-                ]},
+                ], dues: []},
                 day2: {date: "10/15", titles: ["Technical Evaluation","Paper Seminar #2"], type: 1, notes: [], dues: [                    {name: "HW#3 due by 10/19 (Fri)", link: "https://klms.kaist.ac.kr/"}
 ]}
             },
@@ -99,7 +97,7 @@ export const gct565_data = [
             {
                 day1: {date: "10/27", titles: ["Machine Learning & Data Mining Toolkit II","EMG Data Collection"], type: 0, notes: [
                     {name: "HW#4 Handout (KLMS)", link: ""}
-                ], dues: []},
+                ], dues: [{name: "RR#3 due by 10/26 (Sun)", link: "https://klms.kaist.ac.kr/"}]},
                 day2: {date: "10/29", titles: ["Paper Seminar #3"], type: 1, notes: [
                     {name: "Discussion Schedule", link: ""}
                 ], dues: []}
