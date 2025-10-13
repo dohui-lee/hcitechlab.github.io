@@ -3,10 +3,31 @@ import Link from 'next/link';
 export const news = [
     {
         icon: "img/icon/conf.png",
+        title: "ISMAR 2025 Participation",
+        date: "Oct 13 2025",
+        content: <dev>Our lab participated in ISMAR'25 in Daejeon. Kun-woo and Minju presented papers. Hojeong, Kyoungwhan, Min-yung, and Dongkyu presented posters.</dev>,
+        images: ["img/Lab/2510/ISMAR1.jpg","img/Lab/2510/ISMAR22.jpg","img/Lab/2510/ISMAR4.jpg","img/Lab/2510/ISMAR8.jpg"]
+    },
+    {
+        icon: "img/icon/project.png",
+        title: "Google Visit",
+        date: "Oct 2 2025",
+        content: "Ruofei and Xun from Google visited HCI Tech Lab for potential research collaboration.",
+        images: ["img/Lab/2509/GoogleVisit1.png"]
+    },
+    {
+        icon: "img/icon/conf.png",
         title: "UIST 2025 Participation",
         date: "Sep 29 2025",
         content: <dev>Our lab participated in UIST'25 in Busan. Youjin, Hanseok, and Donkyu presented demos. Eunho and Rachel presented SIC demo.</dev>,
         images: ["img/Lab/2509/UIST1.jpg","img/Lab/2509/UIST2.jpg","img/Lab/2509/UIST3.jpg","img/Lab/2509/UIST4.jpg"]
+    },
+    {
+        icon: "img/icon/conf.png",
+        title: "PreUIST Participation",
+        date: "Sep 28 2025",
+        content: <dev>Our lab participated in PreUIST evetn in KAIST.</dev>,
+        images: ["img/Lab/2509/PreUIST0.jpg","img/Lab/2509/PreUIST2.jpg"]
     },
     {
         icon: "img/icon/star.png",

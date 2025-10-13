@@ -19,6 +19,40 @@ export default function Gallery() {
   }
 
 const galleries = {
+  "October, 2025 (ISMAR)": [
+    "img/Lab/2510/ISMAR0.jpg",
+    "img/Lab/2510/ISMAR1.jpg",
+    "img/Lab/2510/ISMAR2.jpg",
+    "img/Lab/2510/ISMAR3.jpg",
+    "img/Lab/2510/ISMAR4.jpg",
+    "img/Lab/2510/ISMAR5.jpg",
+    "img/Lab/2510/ISMAR6.jpg",
+    "img/Lab/2510/ISMAR7.jpg",
+    "img/Lab/2510/ISMAR8.jpg",
+    "img/Lab/2510/ISMAR9.jpg",
+    "img/Lab/2510/ISMAR10.jpg",
+  ],
+  "September, 2025 (UIST)": [
+    "img/Lab/2509/UIST1.jpg",
+    "img/Lab/2509/UIST2.jpg",
+    "img/Lab/2509/UIST3.jpg",
+    "img/Lab/2509/UIST4.jpg",
+    "img/Lab/2509/UIST6.jpg",
+    "img/Lab/2509/UIST7.jpg",
+    "img/Lab/2509/UIST8.jpg",
+    "img/Lab/2509/UIST9.jpg",
+    "img/Lab/2509/UIST10.jpg",
+    "img/Lab/2509/UIST11.jpg",
+    "img/Lab/2509/UIST12.jpg",
+  ],
+  "September, 2025 (PreUIST)": [
+    "img/Lab/2509/PreUIST0.jpg",
+    "img/Lab/2509/PreUIST1.jpg",
+    "img/Lab/2509/PreUIST2.jpg",
+    "img/Lab/2509/PreUIST3.jpg",
+    "img/Lab/2509/PreUIST4.jpg",
+    "img/Lab/2509/PreUIST5.jpg",
+  ],
   "May, 2025 (Teacher's Day)": [
     "img/Lab/2505/Teacher1.jpg",
     "img/Lab/2505/Teacher2.jpg",
