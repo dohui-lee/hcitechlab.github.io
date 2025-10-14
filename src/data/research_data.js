@@ -419,7 +419,7 @@ export const research_temp = {
             demo: "",
             title: "Tendon Vibration for Virtual Object Interactions",
             authors: "Kun-Woo Song et.al",
-            status: "In Preparation",
+            status: "Under Review",
             conference: "",
             conferenceLink: "",
             award: "",
@@ -557,7 +557,7 @@ export const research_temp = {
             pdf: "",
             presentation: "",
             media: "",
-            highlight: true,
+            highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {

@@ -9,11 +9,25 @@ export const news = [
         images: ["img/Lab/2510/ISMAR1.jpg","img/Lab/2510/ISMAR22.jpg","img/Lab/2510/ISMAR4.jpg","img/Lab/2510/ISMAR8.jpg"]
     },
     {
-        icon: "img/icon/project.png",
+        icon: "img/icon/visit.png",
+        title: "Visit from Aarhus University",
+        date: "Oct 10 2025",
+        content: <dev>Prof. Ken Pfeuffer and Dr. Qiushi Zhou from Aarhus University visited us!</dev>,
+        images: ["img/Lab/2510/Kenvisit1.jpg","img/Lab/2510/Kenvisit2.jpg","img/Lab/2510/Kenvisit3.jpg"]
+    },
+    {
+        icon: "img/icon/visit.png",
+        title: "Visit from MIT & FH Technikum Wien",
+        date: "Oct 10 2025",
+        content: <dev>Dr.Liu from MIT's <Link href="https://leapgroup.mit.edu/" target="_blank">Leap Group</Link> and Horst Orsolits from FH Technikum Wien visited us!</dev>,
+        images: ["img/Lab/2510/mitvisit1.jpg","img/Lab/2510/mitvisit2.jpg"]
+    },
+    {
+        icon: "img/icon/visit.png",
         title: "Google Visit",
         date: "Oct 2 2025",
         content: "Ruofei and Xun from Google visited HCI Tech Lab for potential research collaboration.",
-        images: ["img/Lab/2509/GoogleVisit1.png"]
+        images: ["img/Lab/2509/GoogleVisit1.png", "img/Lab/2509/GoogleVisit1.png"]
     },
     {
         icon: "img/icon/conf.png",
@@ -24,9 +38,9 @@ export const news = [
     },
     {
         icon: "img/icon/conf.png",
-        title: "PreUIST Participation",
+        title: "Pre-UIST Participation",
         date: "Sep 28 2025",
-        content: <dev>Our lab participated in PreUIST evetn in KAIST.</dev>,
+        content: <dev>Our lab participated in <Link href="https://cs.kaist.ac.kr/board/view?bbs_id=news&bbs_sn=11590&menu=83" target="_blank">Pre-UIST</Link> event in KAIST.</dev>,
         images: ["img/Lab/2509/PreUIST0.jpg","img/Lab/2509/PreUIST2.jpg"]
     },
     {
@@ -51,8 +65,8 @@ export const news = [
         images: ["img/Lab/2508/KCCV1.jpg","img/Lab/2508/KCCV2.jpg"]
     },
     {
-        icon: "img/icon/project.png",
-        title: "Research Collaboration (Visit from Beihang, Tsinghua, SUS Tech)",
+        icon: "img/icon/visit.png",
+        title: "Visit from Beihang, Tsinghua, SUS Tech",
         date: "July 15 2025",
         content: <dev>Visitors from Chinese institutions including Prof. Dangxiao Wang, Prof. Yun Wang, Prof. Yang Jiao, Prof. Seungwoo Je visited us!</dev>,
         images: ["img/Lab/2507/Beihang1.jpg","img/Lab/2507/Beihang2.jpg","img/Lab/2507/Beihang4.jpg"]
@@ -63,6 +77,13 @@ export const news = [
         date: "July 8 2025",
         content: <dev>Our lab participated in WHC'25 in Suwon. Hojeong presented a paper and Eunho, Murad, Kun-woo, and Youjin presented demos/posters.</dev>,
         images: ["img/Lab/2507/WHC4.jpg","img/Lab/2507/WHC1.jpg","img/Lab/2507/WHC2.jpg"]
+    },
+    {
+        icon: "img/icon/visit.png",
+        title: "Visit from UIUC",
+        date: "July 7 2025",
+        content: <dev>Prof. Craig Shultz from UIUC's <Link href="https://www.interactivedisplaylab.com/" target="_blank">Interactive Display Lab</Link> visited us!</dev>,
+        images: ["img/Lab/2507/CraigVisit1.jpg","img/Lab/2507/CraigVisit2.jpg"]
     },
     {
         icon: "img/icon/conf.png",
@@ -86,8 +107,8 @@ export const news = [
         images: ["img/Lab/2506/ETRI1.png","img/Lab/2506/ETRI2.png"]
     },
     {
-        icon: "img/icon/project.png",
-        title: "Research Collaboration (Visit from ASU)",
+        icon: "img/icon/visit.png",
+        title: "Visit from ASU",
         date: "Jun 4 2025",
         content: <dev>Prof. Heejin Jeong from Arizona State University's <Link href="https://himer.lab.asu.edu/" target="_blank">HiMER Lab</Link> visited us!</dev>,
         images: ["img/Lab/2506/ASU1.jpeg","img/Lab/2506/ASU2.jpeg","img/Lab/2506/ASU3.jpeg"]
@@ -417,8 +438,8 @@ export const news = [
         images: ["img/Lab/2402/HCIK_01.jpeg"]
     },
     {
-        icon: "img/icon/project.png",
-        title: "Research Collaboration (Visit from Hyundai Motor Company)",
+        icon: "img/icon/visit.png",
+        title: "Visit from Hyundai Motor Company",
         date: "Jan 26 2024",
         content: "Hyundai Motor Company (HMC) Research Team visited HCI Tech Lab for potential research collaboration.",
         images: ["img/Lab/2402/HMC1.jpg"]
@@ -508,7 +529,7 @@ export const news = [
         images: []
     },
     {
-        icon: "img/icon/project.png",
+        icon: "img/icon/visit.png",
         title: "Research Collaboration",
         date: "Aug 24 2023",
         content: "ETRI & 1Million visited HCI Tech Lab for research collaboration.",

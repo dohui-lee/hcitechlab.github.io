@@ -90,7 +90,7 @@ const NewsCard = () => {
       <div className="card h-100">
         <div className="card-body">
           <h2 className="card-title">News </h2>
-          <div className="scroll-box" style={{ height: '500px' }}>
+          <div className="scroll-box" style={{ height: '750px' }}>
             <div className="scroll">
               <div className="row news_item mt-4">
               {
