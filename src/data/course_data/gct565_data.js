@@ -229,11 +229,9 @@ export const gct565_data = [
             },
             {
                 day1: {date: "9/23", titles: ["Augmented Sensing I (Optical Sensing & Wearables)"], type: 0, notes: [], dues: []},
-                day2: {date: "9/25", titles: ["Paper Seminar #1", "Project Proposal Q&A"], type: 1, notes: [
-                    {name: "Team Project Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
-                ], dues: [
-                    {}
-                ]}
+                day2: {date: "9/25", titles: ["Paper Seminar #1", "Project Proposal Q&A"], type: 1, 
+                notes: [{name: "Team Project Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}], 
+                dues: []}
             },
             {
                 day1: {date: "9/30", titles: ["Project Proposal Presentation"], type: 1, notes: [
