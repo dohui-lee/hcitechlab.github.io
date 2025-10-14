@@ -31,7 +31,7 @@ export const news = [
     },
     {
         icon: "img/icon/visit.png",
-        title: "Google Visit",
+        title: "Visit from Google XR team",
         date: "Oct 2 2025",
         content: "Ruofei and Xun from Google visited HCI Tech Lab for potential research collaboration.",
         images: ["img/Lab/2509/GoogleVisit1.png", "img/Lab/2509/GoogleVisit1.png"]
