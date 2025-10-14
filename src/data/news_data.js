@@ -2,6 +2,13 @@ import Link from 'next/link';
 
 export const news = [
     {
+        icon: "img/icon/award.png",
+        title: "Best Paper Award for ISMAR 2025",
+        date:"Oct 13 2025",
+        content: (<>Our paper <strong>Visuo-Tactile Feedback with Hand Outline Styles for Modulating Affective Roughness Perception</strong> led by Minju wins Best Paper Award <span>(&lt;1%)</span> for <Link href="https://www.ieeeismar.net/2025/" target="_blank">ISMAR 2025</Link>!'</>),
+        images: ["img/Lab/2510/TVCGAward.jpg","img/Lab/2510/TVCGAward1.jpg"],
+    },
+    {
         icon: "img/icon/conf.png",
         title: "ISMAR 2025 Participation",
         date: "Oct 13 2025",
@@ -203,7 +210,6 @@ export const news = [
         date: "Mar 28 2025",
         content: (<>Our papers <strong>ChoreoCraft: In-situ Crafting of Choreography in Virtual Reality through Creativity Support Tool</strong> led by Kyungeun & Hyunyoung and <strong>T2IRay: Design of Thumb-to-Index based Indirect Pointing for Continuous and Robust AR/VR Input</strong> led by Jina win Honorable Mention Award for <Link href="https://chi2025.acm.org/" target="_blank">CHI 2025</Link>!'</>),
         images: [],
-        
     },
     {
         icon: "img/icon/speaker.png",

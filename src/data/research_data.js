@@ -25,7 +25,7 @@ export const research_temp = {
             status: "",
             conference: "IEEE Transactions on Visualization and Computer Graphics (TVCG/ISMAR2025)",
             conferenceLink: "https://www.ieeeismar.net/2025/",
-            award: "",
+            award: "Best Paper Award",
             website: "",
             doi: "https://arxiv.org/abs/2508.13504",
             video: "",
