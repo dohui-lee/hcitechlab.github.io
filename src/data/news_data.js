@@ -2,6 +2,13 @@ import Link from 'next/link';
 
 export const news = [
     {
+        icon: "img/icon/conf.png",
+        title: "UbiComp 2025 Participation",
+        date: "Oct 16 2025",
+        content: <dev>Our lab participated in UbiComp'25 in Espoo. Changheyon and HyungIl presented IMWUT paper and ISWC Brief.</dev>,
+        images: ["img/Lab/2510/UbiComp.jpg","img/Lab/2510/UbiComp2.jpg","img/Lab/2510/UbiComp3.jpg"]
+    },
+    {
         icon: "img/icon/award.png",
         title: "Best Paper Award for ISMAR 2025",
         date:"Oct 13 2025",
