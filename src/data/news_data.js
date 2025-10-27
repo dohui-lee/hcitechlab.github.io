@@ -2,6 +2,13 @@ import Link from 'next/link';
 
 export const news = [
     {
+        icon: "img/icon/team.png",
+        title: "Lab Activity (Fall Barbeque)",
+        date: "Oct 24 2025",
+        content: "Lab Gathering for Fall Barbeque.",
+        images: ["img/Lab/2510/Lab_Barbeque.jpg"]
+    },
+    {
         icon: "img/icon/conf.png",
         title: "UbiComp 2025 Participation",
         date: "Oct 16 2025",
@@ -107,7 +114,7 @@ export const news = [
         images: ["img/Lab/2507/KCC.jpg"]
     },
     {
-        icon: "img/icon/speaker.png",
+        icon: "img/icon/team.png",
         title: "Lab Activity (Sports Day)",
         date: "Jun 18 2025",
         content: "Lab Gathering with Sports Activity.",
@@ -205,7 +212,7 @@ export const news = [
         images: []
     },
     {
-        icon: "img/icon/speaker.png",
+        icon: "img/icon/team.png",
         title: "Lab Activity (KAIST Strawberry Party)",
         date: "Mar 31 2025",
         content: "Lab Gathering at the KAIST Strawberry Party.",
@@ -318,7 +325,7 @@ export const news = [
         images: ["img/Lab/2412/NeurIPS24_1.jpg", "img/Lab/2412/NeurIPS24_2.jpg"]
     },
     {
-        icon: "img/icon/speaker.png",
+        icon: "img/icon/team.png",
         title: "Lab Activity (Community Service)",
         date: "Nov 22 2024",
         content: "Our lab participated in community service.",

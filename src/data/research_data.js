@@ -9,10 +9,10 @@ export const research_temp = {
             conference: "",
             conferenceLink: "",
             award: "",
-            website: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5507975",
+            website: "",
             doi: "",
             video: "",
-            pdf: "",
+            pdf: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5507975",
             presentation: "",
             media: "",
             highlight: false,
@@ -347,7 +347,7 @@ export const research_temp = {
             demo: "",
             title: "FaceShield: Defending Facial Image against Deepfake Threats",
             authors: "Jaehwan Jeong, Sumin In, Sieun Kim, Hannie Shin, Jongheon Jeong, Sang Ho Yoon, Jaewook Chung, Sangpil Kim",
-            status: "ACCEPTED - WILL BE PUBLISED IN",
+            status: "",
             conference: "ICCV2025",
             conferenceLink: "https://iccv.thecvf.com/",
             award: "",
@@ -358,14 +358,14 @@ export const research_temp = {
             presentation: "",
             media: "",
             highlight: false,
-            category: "Preprint"
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "img/icon/preprint.png",
             demo: "",
             title: "PASTA: Part-Aware Sketch-to-3D Shape Generation with Text-Aligned Prior",
             authors: "Seunggwan Lee, Hwanhee Jung, ByoungSoo Koh, Qixing Huang, Sang Ho Yoon, Sangpil Kim",
-            status: "ACCEPTED - WILL BE PUBLISED IN",
+            status: "",
             conference: "ICCV2025",
             conferenceLink: "https://iccv.thecvf.com/",
             award: "",
@@ -376,7 +376,7 @@ export const research_temp = {
             presentation: "",
             media: "",
             highlight: false,
-            category: "Preprint"
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "img/icon/Under_Review.png",

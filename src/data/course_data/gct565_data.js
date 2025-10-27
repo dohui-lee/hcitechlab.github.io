@@ -106,8 +106,8 @@ export const gct565_data = [
                 day1: {date: "11/3", titles: ["Project Progress Presentation"], type: 1, notes: [
                     {name: "Presentation Schedule", link: ""}
                 ], dues: [
-                    {name: "Progress Presentation Slides due by 11/4 (Mon)", link: "https://klms.kaist.ac.kr/"},
-                    {name: "Audience Evaluation Form due by 11/5 (Tue)", link: "https://klms.kaist.ac.kr/"}
+                    {name: "Progress Presentation Slides due by 11/3 (Mon)", link: "https://klms.kaist.ac.kr/"},
+                    {name: "Audience Evaluation Form due by 11/4 (Tue)", link: "https://klms.kaist.ac.kr/"}
                 ]},
                 day2: {date: "11/5", titles: ["Project Feedback"], type: 1, notes: [], dues: [
                     {name: "RR#4 due by 11/5 (Wed)", link: "https://klms.kaist.ac.kr/"},
