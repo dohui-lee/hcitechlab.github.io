@@ -110,8 +110,8 @@ export const gct565_data = [
                     {name: "Audience Evaluation Form due by 11/5 (Tue)", link: "https://klms.kaist.ac.kr/"}
                 ]},
                 day2: {date: "11/5", titles: ["Project Feedback"], type: 1, notes: [], dues: [
-                    {name: "RR#4 due by 11/7 (Thu)", link: "https://klms.kaist.ac.kr/"},
-                    {name: "HW#4 due by 11/10 (Sun)", link: "https://klms.kaist.ac.kr/"}
+                    {name: "RR#4 due by 11/5 (Wed)", link: "https://klms.kaist.ac.kr/"},
+                    {name: "HW#4 due by 11/9 (Sun)", link: "https://klms.kaist.ac.kr/"}
                 ]}
             },
             {
@@ -119,9 +119,9 @@ export const gct565_data = [
                 day2: {date: "11/12", titles: ["Quantitative and Qualitative Study","Paper Seminar #4"], type: 1, notes: [
                     {name: "Feedback Schedule", link: ""}
                 ], dues: [
-                    {name: "Progress Report due by 11/15 (Fri)", link: "https://klms.kaist.ac.kr/"},
-                    {name: "Peer Evaluation due by 11/15 (Fri)", link: "https://klms.kaist.ac.kr/"},
-                    {name: "RR#5 due by 11/17 (Sun)", link: "https://klms.kaist.ac.kr/"}
+                    {name: "Progress Report due by 11/16 (Fri)", link: "https://klms.kaist.ac.kr/"},
+                    {name: "Peer Evaluation due by 11/16 (Fri)", link: "https://klms.kaist.ac.kr/"},
+                    {name: "RR#5 due by 11/16 (Sun)", link: "https://klms.kaist.ac.kr/"}
                 ]}
             },
             {
@@ -130,7 +130,7 @@ export const gct565_data = [
             },
             {
                 day1: {date: "11/24", titles: ["Augmented hearing, taste, and smell"], type: 0, notes: [], dues: [
-                    {name: "RR#6 due by 11/24 (Sun)", link: "https://klms.kaist.ac.kr/"}
+                    {name: "RR#6 due by 11/23 (Sun)", link: "https://klms.kaist.ac.kr/"}
                 ]},
                 day2: {date: "11/26", titles: ["Paper Seminar #6"], type: 1, notes: [
                     {name: "HW#5 Handout (KLMS)", link: ""}
@@ -139,19 +139,19 @@ export const gct565_data = [
             {
                 day1: {date: "12/1", titles: ["Augmented Humans Storytelling & Design Approaches"], type: 0, notes: [], dues: []},
                 day2: {date: "12/3", titles: ["Project Q&A and Preparation"], type: 1, notes: [], dues: [
-                    {name: "HW#5 due by 12/4 (Wed)", link: "https://klms.kaist.ac.kr/"}
+                    {name: "HW#5 due by 12/3 (Wed)", link: "https://klms.kaist.ac.kr/"}
                 ]}
             },
             {
                 day1: {date: "12/8", titles: ["Final Presentation"], type: 1, notes: [
                     {name: "Presentation Schedule", link: ""}
                 ], dues: [
-                    {name: "Final Presentation Slides due by 12/8 (Sun)", link: "https://klms.kaist.ac.kr/"}
+                    {name: "Final Presentation Slides due by 12/8 (Mon)", link: "https://klms.kaist.ac.kr/"}
                 ]},
                 day2: {date: "12/10", titles: ["Final Presentation"], type: 1, notes: [
                     {name: "Feedback Schedule", link: ""}
                 ], dues: [
-                    {name: "Audience Evaluation Form due by 12/12 (Thu)", link: "https://klms.kaist.ac.kr/"}
+                    {name: "Audience Evaluation Form due by 12/10 (Wed)", link: "https://klms.kaist.ac.kr/"}
                 ]}
             },
             {
