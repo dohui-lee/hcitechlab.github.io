@@ -1,22 +1,22 @@
 export const research_temp = {
     "2025": [
         {
-            poster: "img/icon/Under_Review.png",
+            poster: "research/2025/IMWUT/MovingPress.png",
             demo: "",
-            title: "ThumbPress: Robust Thumb Force Detection during Single-Handed Interaction using Egocentric RGB Frame",
-            authors: "Hanseok Jeong, Junghoon Seo, Sangpil Kim, Sang Ho Yoon",
-            status: "Under Review",
-            conference: "",
-            conferenceLink: "",
+            title: "Moving-Press: Pressure-based Moving Phantom Sensation for Immersive VR Hand Interaction",
+            authors: "Dongkyu Kwak*, Kyungjin Seo*, Rachel Kim, Sang Ho Yoon",
+            status: "ACCEPTED - WILL BE PUBLISED IN",
+            conference: "ACM IMWUT",
+            conferenceLink: "https://dl.acm.org/journal/imwut",
             award: "",
             website: "",
             doi: "",
             video: "",
-            pdf: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5507975",
+            pdf: "",
             presentation: "",
             media: "",
             highlight: false,
-            category: "Under Review"
+            category: "Preprint"
         },
         {
             poster: "research/2025/ISWC/ISWC1.png",
@@ -181,7 +181,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "research/2025/IMWUT/IMWUT.png",
+            poster: "research/2025/IMWUT/Ultraboard.png",
             demo: "",
             title: "UltraBoard: Always-Available Wearable Ultrasonic Mid-air Haptic Interface for Responsive and Robust VR Inputs",
             authors: "Changhyeon Park, Yubin Lee, Sang Ho Yoon",
@@ -325,25 +325,7 @@ export const research_temp = {
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "img/icon/preprint.png",
-            demo: "",
-            title: "Moving-Press: Pressure-based Moving Phantom Sensation for Immersive VR Hand Interaction",
-            authors: "Dongkyu Kwak*, Kyungjin Seo*, Rachel Kim, Sang Ho Yoon",
-            status: "ACCEPTED - WILL BE PUBLISED IN",
-            conference: "ACM IMWUT",
-            conferenceLink: "",
-            award: "",
-            website: "",
-            doi: "",
-            video: "",
-            pdf: "https://dl.acm.org/journal/imwut",
-            presentation: "",
-            media: "",
-            highlight: false,
-            category: "Preprint"
-        },
-        {
-            poster: "img/icon/preprint.png",
+            poster: "research/2025/ICCV/Faceshield.png",
             demo: "",
             title: "FaceShield: Defending Facial Image against Deepfake Threats",
             authors: "Jaehwan Jeong, Sumin In, Sieun Kim, Hannie Shin, Jongheon Jeong, Sang Ho Yoon, Jaewook Chung, Sangpil Kim",
@@ -352,16 +334,16 @@ export const research_temp = {
             conferenceLink: "https://iccv.thecvf.com/",
             award: "",
             website: "",
-            doi: "",
+            doi: "https://iccv.thecvf.com/virtual/2025/poster/369",
             video: "",
-            pdf: "",
+            pdf: "https://arxiv.org/abs/2412.09921",
             presentation: "",
             media: "",
             highlight: false,
             category: "Conference / Journal (peer-reviewed)"
         },
         {
-            poster: "img/icon/preprint.png",
+            poster: "research/2025/ICCV/PASTA.png",
             demo: "",
             title: "PASTA: Part-Aware Sketch-to-3D Shape Generation with Text-Aligned Prior",
             authors: "Seunggwan Lee, Hwanhee Jung, ByoungSoo Koh, Qixing Huang, Sang Ho Yoon, Sangpil Kim",
@@ -369,14 +351,33 @@ export const research_temp = {
             conference: "ICCV2025",
             conferenceLink: "https://iccv.thecvf.com/",
             award: "",
-            website: "",
-            doi: "",
+            website: "https://kuai-lab.github.io/iccv2025pasta/",
+            doi: "https://iccv.thecvf.com/virtual/2025/poster/233",
             video: "",
-            pdf: "",
+            pdf: "https://arxiv.org/pdf/2503.12834",
             presentation: "",
             media: "",
             highlight: false,
             category: "Conference / Journal (peer-reviewed)"
+        },
+
+        {
+            poster: "img/icon/Under_Review.png",
+            demo: "",
+            title: "ThumbPress: Robust Thumb Force Detection during Single-Handed Interaction using Egocentric RGB Frame",
+            authors: "Hanseok Jeong, Junghoon Seo, Sangpil Kim, Sang Ho Yoon",
+            status: "Under Review",
+            conference: "",
+            conferenceLink: "",
+            award: "",
+            website: "",
+            doi: "",
+            video: "",
+            pdf: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5507975",
+            presentation: "",
+            media: "",
+            highlight: false,
+            category: "Under Review"
         },
         {
             poster: "img/icon/Under_Review.png",

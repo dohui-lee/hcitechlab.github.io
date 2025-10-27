@@ -2,6 +2,13 @@ import Link from 'next/link';
 
 export const news = [
     {
+        icon: "img/icon/paper2.jpg",
+        title: "A paper accepted to IMWUT (UbiComp 2026)",
+        date: "Oct 27 2025",
+        content: <div>Our paper <strong>Moving-Press: Pressure-based Moving Phantom Sensation for Immersive VR Hand Interaction</strong> led by Dongkyu, Kyungjin and Rachel is accepted to <Link href="https://dl.acm.org/journal/imwut" target="_blank">Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)</Link>.</div>,
+        images: []
+    },
+    {
         icon: "img/icon/team.png",
         title: "Lab Activity (Fall Barbeque)",
         date: "Oct 24 2025",
