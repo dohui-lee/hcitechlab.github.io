@@ -451,6 +451,13 @@ export const gradAlumni = [
 
 export const internAlumni = [
     {
+        name: "Son Nghiem",
+        nameLink: "#",
+        title: "Undergraduate Intern (KAIST)",
+        period: "Fall 2025",
+        current: "",
+    },
+    {
         name: "Hyunwook Jung",
         nameLink: "#",
         title: "Research Intern (HYU)",
