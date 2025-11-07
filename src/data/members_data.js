@@ -295,17 +295,6 @@ export const msStudents = [
 ];
 
 export const interns = [
-    {
-        img: "img/Member/SN.jpg",
-        hoverImg: "main_icon.png",
-        name: "Son Nghiem",
-        title: "Undergraduate Intern",
-        interest: "",
-        link: "#",
-        mail: "",
-        linkedin: "https://www.linkedin.com/in/son-nghiem-xuan/?originalSubdomain=kr",
-        note: "",
-    },
 ];
 
 export const gradAlumni = [
