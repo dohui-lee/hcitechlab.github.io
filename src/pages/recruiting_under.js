@@ -2,16 +2,16 @@ import SectionContainer from "@/components/section_container";
 import Link from "next/link";
 
 const recruitingData = {
-    "period": "Summer 2025",
-    "formLink": "",
-    "documentLink": "",
+    "period": "Winter 2026",
+    "formLink": "https://forms.gle/V9ScDwcvgNucQuyW6",
+    "documentLink": "https://docs.google.com/document/d/1BO5ckAfkNJK3NnuDOpjc-S0Q_yDRnrewTY0GauhTayI/edit?usp=sharing",
     "projectTitles": [
-        "Build/Collect/Design Physical AI data and model for hand interaction ",
-        "Multimodal Interaction Framework for gaze-based selection",
-        "Hand Pose Reconstruction using Ultrasonic Beamforming",
-        "How can novices learn dance more easily and effectively?",
+        "Impact Dataset & Haptic Generation from Movies with Multimodal AI",
+        "Extended MR Interface with Visual Guidance (with Galaxy XR",
+        "Application Development utilizing Gaze-based Multimodal XR Interaction",
+        "A Real-Time Hand Estimation and Adaptive Mid-Air Haptic Toolkit Using a Single Ultrasound Transducer Array",
     ],
-    "deadline": "May 7, 2025 (Wed)",
+    "deadline": "Nov 16, 2025 (Sun)",
 }
 
 export default function RecruitingUnder() {
@@ -57,7 +57,7 @@ export default function RecruitingUnder() {
 
             <h2>How to Apply</h2>
             <ul style={{marginLeft: "30px"}}>
-                <li><h5>Apply through <Link href = {recruitingData['formLink']}> Google Form </Link> </h5></li>
+                <li><h5>Apply through <Link href = {recruitingData['formLink']} target="_blank"> Google Form </Link> </h5></li>
                 <li><h5>Application Deadline: <b>{recruitingData['deadline']}</b></h5></li>
             </ul>
 

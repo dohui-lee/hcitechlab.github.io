@@ -33,7 +33,8 @@ export default function Contact() {
           <p></p>
           <h4>For M.S./Ph.D. students, please check below.</h4>
           <p></p>
-          <Link className="badge bg-primary" href="/recruiting_graduate" style={{width: "15.5rem", height: "2.2rem", fontSize: "1.2rem" }}>M.S./Ph.D. Students</Link>
+          <Link className="badge bg-primary" href="/recruiting_graduate" style={{width: "15.5rem", height: "2.2rem", fontSize: "1.2rem",marginRight: "1rem" }}>M.S./Ph.D. Students</Link>
+          <Link className="badge bg-primary" href="/recruiting_under" style={{width: "15.5rem", height: "2.2rem", fontSize: "1.2rem" }}>2026 Winter Internship</Link>
         </SectionContainer>
       </div>
     );

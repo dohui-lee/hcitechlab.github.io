@@ -2,6 +2,14 @@ import Link from 'next/link';
 
 export const news = [
     {
+        icon: "img/icon/speaker.png",
+        title: "Winter 2026 Undergraduate Research Internship",
+        date: "Nov 7 2025",
+        content: <div>We are looking for research interns (including URP) for 2025 Winter. Application deadline is Nov 16th. You can find more information <Link href="/recruiting_under" target="_blank">here</Link>.</div>,
+        images: []
+    },
+
+    {
         icon: "img/icon/paper2.jpg",
         title: "A paper accepted to IMWUT (UbiComp 2026)",
         date: "Oct 27 2025",
