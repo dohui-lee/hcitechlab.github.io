@@ -8,7 +8,13 @@ export const news = [
         content: <div>We are looking for research interns (including URP) for 2025 Winter. Application deadline is Nov 16th. You can find more information <Link href="/recruiting_under" target="_blank">here</Link>.</div>,
         images: []
     },
-
+    {
+        icon: "img/icon/visit.png",
+        title: "Visit from Danish delegation of distinguished professors",
+        date: "Nov 3 2025",
+        content: <dev>Distinguished professors from Denmark visited our lab as part of the Global Innovation Network Programme (GINP) – Korea 2025.</dev>,
+        images: ["img/Lab/2511/Denmark1.jpg","img/Lab/2511/Denmark2.jpg","img/Lab/2511/Denmark4.jpg","img/Lab/2511/Denmark5.jpg"]
+    },
     {
         icon: "img/icon/paper2.jpg",
         title: "A paper accepted to IMWUT (UbiComp 2026)",

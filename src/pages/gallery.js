@@ -19,6 +19,27 @@ export default function Gallery() {
   }
 
 const galleries = {
+  "November, 2025 (External Visit, Distinguished professors from Denmark)": [
+    "img/Lab/2511/Denmark1.jpg",
+    "img/Lab/2511/Denmark2.jpg",
+    "img/Lab/2511/Denmark3.jpg",
+    "img/Lab/2511/Denmark4.jpg",
+    "img/Lab/2511/Denmark5.jpg",
+    "img/Lab/2511/Denmark6.jpg",
+    "img/Lab/2511/Denmark7.jpg",
+  ],
+  "October, 2025 (External Visit, Google, Aarhus Univ., MIT)": [
+    "img/Lab/2509/GoogleVisit1.png",
+    "img/Lab/2509/GoogleVisit2.jpg",
+    "img/Lab/2509/GoogleVisit3.jpg",
+    "img/Lab/2509/GoogleVisit4.jpg",
+    "img/Lab/2510/Kenvisit1.jpg",
+    "img/Lab/2510/Kenvisit2.jpg",
+    "img/Lab/2510/Kenvisit3.jpg",
+    "img/Lab/2510/mitvisit1.jpg",
+    "img/Lab/2510/mitvisit2.jpg",
+    "img/Lab/2510/mitvisit3.jpg",
+  ],
   "October, 2025 (ISMAR)": [
     "img/Lab/2510/ISMAR0.jpg",
     "img/Lab/2510/ISMAR1.jpg",
@@ -30,7 +51,6 @@ const galleries = {
     "img/Lab/2510/ISMAR7.jpg",
     "img/Lab/2510/ISMAR8.jpg",
     "img/Lab/2510/ISMAR9.jpg",
-    "img/Lab/2510/ISMAR10.jpg",
   ],
   "September, 2025 (UIST)": [
     "img/Lab/2509/UIST1.jpg",
@@ -53,7 +73,7 @@ const galleries = {
     "img/Lab/2509/PreUIST4.jpg",
     "img/Lab/2509/PreUIST5.jpg",
   ],
-  "July, 2025 (External Visit)": [
+  "July, 2025 (External Visit, Distinguished professors from China)": [
     "img/Lab/2507/Beihang1.jpg",
     "img/Lab/2507/Beihang2.jpg",
     "img/Lab/2507/Beihang3.jpg",
