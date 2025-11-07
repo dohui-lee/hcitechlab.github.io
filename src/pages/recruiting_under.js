@@ -6,10 +6,12 @@ const recruitingData = {
     "formLink": "https://forms.gle/V9ScDwcvgNucQuyW6",
     "documentLink": "https://docs.google.com/document/d/1BO5ckAfkNJK3NnuDOpjc-S0Q_yDRnrewTY0GauhTayI/edit?usp=sharing",
     "projectTitles": [
+        "Multimodal Hand Interaction Dataset & Modeling",
         "Impact Dataset & Haptic Generation from Movies with Multimodal AI",
-        "Extended MR Interface with Visual Guidance (with Galaxy XR",
-        "Application Development utilizing Gaze-based Multimodal XR Interaction",
-        "A Real-Time Hand Estimation and Adaptive Mid-Air Haptic Toolkit Using a Single Ultrasound Transducer Array",
+        "MR-based Physical Interaction with Visual Guidance using Galaxy XR",
+        "Design and Implication of Gaze-based Multimodal XR Interaction",
+        "Mid-Air Sensing & Haptic Toolkit using Ultrasound Transducer Array",
+        "Authoring & Fabrication UI for Triboelectric Sensing Interface",
     ],
     "deadline": "Nov 16, 2025 (Sun)",
 }
