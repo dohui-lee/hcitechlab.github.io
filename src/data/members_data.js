@@ -43,7 +43,7 @@ export const phdStudents = [
         name: "Jina Kim",
         title: "Ph.D. Student",
         interest: "Research Interest",
-        link: "https://sites.google.com/view/jina-kim?usp=sharing",
+        link: "https://www.jinakim.xyz/",
         mail: "#",
         linkedin: "#",
         note: "",
