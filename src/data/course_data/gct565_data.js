@@ -119,8 +119,8 @@ export const gct565_data = [
                 day2: {date: "11/12", titles: ["Quantitative and Qualitative Study","Paper Seminar #4"], type: 1, notes: [
                     {name: "Feedback Schedule", link: ""}
                 ], dues: [
-                    {name: "Progress Report due by 11/16 (Fri)", link: "https://klms.kaist.ac.kr/"},
-                    {name: "Peer Evaluation due by 11/16 (Fri)", link: "https://klms.kaist.ac.kr/"},
+                    {name: "Progress Report due by 11/14 (Fri)", link: "https://klms.kaist.ac.kr/"},
+                    {name: "Peer Evaluation due by 11/14 (Fri)", link: "https://klms.kaist.ac.kr/"},
                     {name: "RR#5 due by 11/16 (Sun)", link: "https://klms.kaist.ac.kr/"}
                 ]}
             },
