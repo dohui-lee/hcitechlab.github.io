@@ -116,9 +116,7 @@ export const gct565_data = [
             },
             {
                 day1: {date: "11/10", titles: ["Augmented Haptic Feedback"], type: 0, notes: [], dues: []},
-                day2: {date: "11/12", titles: ["Quantitative and Qualitative Study","Paper Seminar #4"], type: 1, notes: [
-                    {name: "Feedback Schedule", link: ""}
-                ], dues: [
+                day2: {date: "11/12", titles: ["Quantitative and Qualitative Study","Paper Seminar #4"], type: 1, notes: [], dues: [
                     {name: "Progress Report due by 11/14 (Fri)", link: "https://klms.kaist.ac.kr/"},
                     {name: "Peer Evaluation due by 11/14 (Fri)", link: "https://klms.kaist.ac.kr/"},
                     {name: "RR#5 due by 11/16 (Sun)", link: "https://klms.kaist.ac.kr/"}
