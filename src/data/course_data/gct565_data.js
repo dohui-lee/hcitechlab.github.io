@@ -127,12 +127,12 @@ export const gct565_data = [
                 day2: {date: "11/19", titles: ["Paper Seminar #5"], type: 1, notes: [], dues: []}
             },
             {
-                day1: {date: "11/24", titles: ["Augmented hearing, taste, and smell"], type: 0, notes: [], dues: [
+                day1: {date: "11/24", titles: ["Augmented hearing, taste, and smell"], type: 0, notes: [
+                    {name: "HW#5 Handout (KLMS)", link: ""}
+                ], dues: [
                     {name: "RR#6 due by 11/23 (Sun)", link: "https://klms.kaist.ac.kr/"}
                 ]},
-                day2: {date: "11/26", titles: ["Paper Seminar #6"], type: 1, notes: [
-                    {name: "HW#5 Handout (KLMS)", link: ""}
-                ], dues: []}
+                day2: {date: "11/26", titles: ["Paper Seminar #6"], type: 1, notes: [], dues: []}
             },
             {
                 day1: {date: "12/1", titles: ["Augmented Humans Storytelling & Design Approaches"], type: 0, notes: [], dues: []},
