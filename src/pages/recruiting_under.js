@@ -13,7 +13,7 @@ const recruitingData = {
         "Mid-Air Sensing & Haptic Toolkit using Ultrasound Transducer Array",
         "Authoring & Fabrication UI for Triboelectric Sensing Interface",
     ],
-    "deadline": "Nov 16, 2025 (Sun)",
+    "deadline": "Nov 18, 2025 (Wed)",
 }
 
 export default function RecruitingUnder() {
