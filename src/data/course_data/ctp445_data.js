@@ -17,13 +17,8 @@ export const ctp445_data = [
         loc: "N25 #3229",
         submission: {name: "KLMS", link: "https://klms.kaist.ac.kr/"},
         discussion: {name: "Email to instructors", link: ""},
-        announcements: [
-            { date: "4/21", content: "Submit Progress Presentation Slides to KLMS due by 4/28(Sun) 11:59pm." },
-            { date: "4/21", content: "Progress Presentation on 4/29 & 5/1 will be held in N25 #3229." },
-            { date: "2/26", content: "Class Starts!" },
-            { date: "3/25", content: "Proposal Presentation Slides due 3/26 11:59pm (All Teams)." }
-        ],
-        schedule: [
+        announcements: [],
+        schedule: [/*
             {
                 day1: {
                     date: "2/26",
@@ -407,9 +402,74 @@ export const ctp445_data = [
                         { name: "Audience Evaluation (Final Video) due by 6/13(Thu) 11:59pm", link: "https://klms.kaist.ac.kr/" }
                     ]
                 }
-            }
+            }*/
         ],
-        projects: []
+        projects: [
+            {
+                title: "AR Tagging Game",
+                members: "Maryam Lootah, Serin Yoon, Seungmi Lee",
+                desc: "",
+                videoLink: "https://www.youtube.com/embed/Ux4juhZ2T2M",
+                recognition: "Cool Video"
+            }, 
+            {
+                title: "XR-Enhanced Cognitive Behavioral Therapy",
+                members: "Youjin Choi, Jina Coulon, Xintong Wu",
+                desc: "",
+                videoLink: "https://www.youtube.com/embed/DCuTvU2rSHE",
+                recognition: ""
+            },
+            {
+                title: "ARAS",
+                members: "Eunhee Jeong, Hankyeol Kim, Seongha Park",
+                desc: "Affordance-Adaptive AR Interaction Augmentation System for Artifact’s Functional Context Delivery in Museum",
+                videoLink: "https://www.youtube.com/embed/YQbMxIViw5k",
+                recognition: ""
+            },
+            {
+                title: "Worki-Yo",
+                members: "Heejeong Ko, Kyounghwan Mheen, Sungjae Choi",
+                desc: "Improved Stretching accessibility for Office Worker using Immersive Augment Reality",
+                videoLink: "https://www.youtube.com/embed/DlkzBgRyndA",
+                recognition: "HCI Korea 2025"
+            },
+            {
+                title: "XR Concert",
+                members: "Hyungwoo Jin, Seongchan Park, Sangmin Park",
+                desc: "Animate Models for Hyper-Photorealistic XR",
+                videoLink: "https://www.youtube.com/embed/nTh0Ejm5jxI",
+                recognition: ""
+            },
+            {
+                title: "ARte",
+                members: "Jongwoo Choi, Heeyoon Choi, Jaesung Park",
+                desc: "3D AR Paintings with Motions for Immersive Art Education",
+                videoLink: "https://www.youtube.com/embed/W5d0Par213Y",
+                recognition: "Best Idea"
+            },
+            {
+                title: "AR Music Player",
+                members: "Rachel Kim, Hojeong Lee, Kun Woo Song",
+                desc: "Interactive Music Listening",
+                videoLink: "https://www.youtube.com/embed/hmA7pKvXjm8",
+                recognition: ""
+            },
+            {
+                title: "ConnectAR",
+                members: "Kangeun Lee, Seoyeon Lee, Ryan Gallagher",
+                desc: "Social networking service with Augmented Reality",
+                videoLink: "https://www.youtube.com/embed/KSQOGj0QBXs",
+                recognition: ""
+            },
+            
+            {
+                title: "AfforDance",
+                members: "Hyunyoung Han, Kitaeg Shim, Jongwon Jang",
+                desc: "Creating Dance Learning Content Tailored to User Preferences and Providing Effective Learning Experiences Utilizing Affordance in AR",
+                videoLink: "https://www.youtube.com/embed/odnqf8nJhe4",
+                recognition: "Best Idea, CHI2025 Workshop Paper"
+            }
+        ]
     },
     {
         course_info: {
