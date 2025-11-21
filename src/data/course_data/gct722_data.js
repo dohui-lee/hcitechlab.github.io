@@ -11,13 +11,14 @@ export const gct722_data = [
         ta: [
             {name: "Youjin Sung", link: ""},
             {name: "Dongkyu Kwak", link: ""},
+            {name: "Kyungeun Jung", link: ""},
         ],
         time: "10:30am-12:00pm Tue/Thu",
         loc: "N5 #2332",
         submission: {name: "KLMS", link: "https://klms.kaist.ac.kr/"},
         discussion: {name: "EMAIL", link: ""},
-        announcements: [{ date: "2/25", content: "Class Starts!" }],
-        schedule: [
+        announcements: [],
+        schedule: [/*
             {
                 day1: {
                     date: "2/25",
@@ -324,9 +325,47 @@ export const gct722_data = [
                         { name: "Video Audience Evaluation due by 6/16 (Mon) 12pm", link: "https://klms.kaist.ac.kr/" }
                     ]
                 }
-            }
+            }*/
         ],
-        projects: []
+        projects: [
+            {
+                "title": "Helptic",
+                "members": "Murad Eynizada, Eunho Kim, Sheriel Shannon Choo",
+                "desc": "VR CPR Training Enhanced by Haptic Retargeting and Vision-Based Hand Posture Classification",
+                "videoLink": "https://www.youtube.com/embed/Qwp22Lsc1w4",
+                "recognition": "Best Haptic Idea, Cool Video, WHC 2025 Demo"
+            },
+            {
+                "title": "HRI Tech",
+                "members": "Jongseok Nam, Nak Hyeong Lee, Youngrae Kim",
+                "desc": "Multi DoF Kinesthetic Haptic Glove &rasp Generation for Enhancing Teleoperated Robot Grasping",
+                "videoLink": "https://www.youtube.com/embed/q0zmnPea5tg",
+                "recognition": ""
+            },
+            {
+                "title": "Hapathy",
+                "members": "Kun Woo Song, Dohui Lee",
+                "desc": "O-PoV: Increasing Sense of Agency in VR by Providing Non-Contact Object Haptics",
+                "videoLink": "https://www.youtube.com/embed/oW01IdXmoM0",
+                "recognition": "WHC 2025 Poster"
+            },
+            {
+                "title": "IMHand",
+                "members": "Minju Baeck, Hanseok Jeong, YoonSeok Shin",
+                "desc": "A Low-Barrier Authoring Tool for Context-Aware Haptic Prototyping in VR",
+                "videoLink": "https://www.youtube.com/embed/iKSSW4fAwh8",
+                "recognition": "KSC 2025"
+            },
+            {
+                "title": "SensiCure",
+                "members": "Felix Pabst, Sangmin Park, Byoungjun Kim",
+                "desc": "Development of a Haptic Wristband Paired with Object Detection for 3D Hand Guidance",
+                "videoLink": "https://www.youtube.com/embed/WsWULC6KnKM",
+                "recognition": ""            
+            },
+
+            
+        ]
     },
     {
         course_info: {
@@ -346,7 +385,7 @@ export const gct722_data = [
         loc: "N5 #2332",
         submission: {name: "KLMS", link: "https://klms.kaist.ac.kr/"},
         discussion: {name: "Classum", link: "https://classum.com/"},
-        announcements: [{ date: "2/25", content: "Class Starts!" }],
+        announcements: [],
         schedule: [],
         projects: [
             {

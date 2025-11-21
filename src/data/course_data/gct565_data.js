@@ -11,6 +11,7 @@ export const gct565_data = [
         ta: [
             {name: "Jina Kim", link: ""}, 
             {name: "Dongkyu Kwak", link: ""},
+            {name: "Kun-woo Song", link: ""},
         ],
         time: "13:00-14:30pm Mon/Wed",
         loc: "N5 #2332",
@@ -177,155 +178,38 @@ export const gct565_data = [
         loc: "N5 #2332",
         submission: {name: "KLMS", link: "https://klms.kaist.ac.kr/"},
         discussion: {name: "Email", link: ""},
-        announcements: [
-            {date: "11/25", content: "Final Presentation on 12/9 will be held in N5 #2332."},
-            {date: "10/3", content: "Course schedule has been updated"},
-            {date: "9/30", content: "Project Proposal Presentation"},
-            {date: "9/13", content: "Team Project Announcement"},
-            {date: "9/6", content: "Paper Seminar Group & Schedule Announcement"},
-            {date: "9/2", content: "Class Starts!"},
-            {date: "8/31", content: "Course website has been updated"},
+        announcements: [],
+        projects: [
+            {
+                title: "Weekendo",
+                members: "Sungbaek Kim, Doyo Choi",
+                desc: "Flobile: Integrating Airflow Sensing and Display with Large Language Models for Ambient Intelligence",
+                videoLink: "https://www.youtube.com/embed/pgFvXM-bSo0",
+                recognition: "Cool Video",
+            },
+            {
+                title: "Cherry on Top",
+                members: "Jisoo Kang, Yuri Kim, Yunseo Chang",
+                desc: "Taletinker: Exploring Onomatopoeia through AI-Driven Storytelling in a Multisensory Interactive Play Gym",
+                videoLink: "https://www.youtube.com/embed/I8U2G4iMMKk",
+                recognition: "",
+            },
+            {
+                title: "HoloLingo",
+                members: "Jiwan Kim, Subin Park, Dohui Lee",
+                desc: "EatMate: Promoting Healthy Eating Through Multimodal Sensing and Food Journaling",
+                videoLink: "https://www.youtube.com/embed/QmmM2J9e5h8",
+                recognition: "Best Augmented Humans Project, KCC 2025 Poster",
+            },
+            {
+                title: "Mafia Cats",
+                members: "Kwang Bin Lee, Kyoungwhan Mhenn, Jihun Chae",
+                desc: "PeeKaBoo: Personalized Emotional Evaluation Kernel Adjusted by Biofeedback-Optimized Observation",
+                videoLink: "https://www.youtube.com/embed/KrURBbeN0e8",
+                recognition: "",
+            },
         ],
-        projects: [],
-        schedule: [
-            {
-                day1: {
-                    date: "9/2", titles: ["Course Overview"], type: 0,
-                    notes: [{name: "HW#1 Handout (KLMS)", link: ""}],
-                    dues: [],
-                },
-                day2: {
-                    date: "9/4", titles: ["Augmented Interfaces"], type: 0,
-                    notes: [],
-                    dues: [{name: "HW#1 due by 9/5 (Fri) 12pm", link: "https://klms.kaist.ac.kr/"}],
-                },
-            },
-            {
-                day1: {
-                    date: "9/9", titles: ["Project Workshop"], type: 1,
-                    notes: [],
-                    dues: [{name: "Team Formation Activity Form due by 9/8 (Sun)", link: ""}, {name: "Paper Seminar Sign Up due by 9/8 (Sun)", link: ""}],
-                },
-                day2: {
-                    date: "9/11", titles: ["Augmented Display"], type: 0,
-                    notes: [{name: "HW#2 Handout (KLMS)", link: ""}],
-                    dues: [{name: "Project Team Sign Up due by 9/12(Thu) 12pm", link: ""}],
-                },
-            },
-            {
-                day1: {
-                    date: "9/16", titles: ["No Class (Chuseok)"], type: 2,
-                    notes: [],
-                    dues: []
-                },
-                day2: {
-                    date: "9/18", titles: ["No Class (Chuseok)"], type: 2,
-                    notes: [],
-                    dues: [{name: "HW#2 due by 9/20 (Fri)", link: "https://klms.kaist.ac.kr/"}, {name: "RR#1 due by 9/22 (Sun)", link: "https://klms.kaist.ac.kr/"}]
-                }
-            },
-            {
-                day1: {date: "9/23", titles: ["Augmented Sensing I (Optical Sensing & Wearables)"], type: 0, notes: [], dues: []},
-                day2: {date: "9/25", titles: ["Paper Seminar #1", "Project Proposal Q&A"], type: 1, 
-                notes: [{name: "Team Project Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}], 
-                dues: []}
-            },
-            {
-                day1: {date: "9/30", titles: ["Project Proposal Presentation"], type: 1, notes: [
-                    {name: "Presentation Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
-                ], dues: [
-                    {name: "Proposal Presentation Slides due by 9/30 (Mon)", link: "https://klms.kaist.ac.kr/"}
-                ]},
-                day2: {date: "10/2", titles: ["Paper Seminar #2", "Project Proposal Feedback"], type: 1, notes: [
-                    {name: "Feedback Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
-                ], dues: []}
-            },
-            {
-                day1: {date: "10/7", titles: ["Machine Learning & Data Mining Toolkit I"], type: 0, notes: [], dues: []},
-                day2: {date: "10/9", titles: ["No Class (Hangul Day)"], type: 2, notes: [], dues: []}
-            },
-            {
-                day1: {date: "10/14", titles: ["Augmented Sensing II", "On-body Interface"], type: 0, notes: [
-                    {name: "HW#3 Handout (KLMS)", link: ""}
-                ], dues: [
-                    {name: "RR#3 due by 10/13 (Sun)", link: "https://klms.kaist.ac.kr/"}
-                ]},
-                day2: {date: "10/16", titles: ["Paper Seminar #3"], type: 1, notes: [], dues: []}
-            },
-            {
-                day1: {date: "10/21", titles: ["No class (Midterms Week)"], type: 2, notes: [], dues: []},
-                day2: {date: "10/23", titles: ["No class (Midterms Week)"], type: 2, notes: [], dues: [
-                    {name: "HW#3 due by 10/24 (Thu)", link: "https://klms.kaist.ac.kr/"}
-                ]}
-            },
-            {
-                day1: {date: "10/28", titles: ["Machine Learning & Data Mining Toolkit II", "EMG Data Collection"], type: 0, notes: [
-                    {name: "HW#4 Handout (KLMS)", link: ""}
-                ], dues: []},
-                day2: {date: "10/30", titles: ["Project Progress Discussion (Zoom)"], type: 0, notes: [
-                    {name: "Discussion Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
-                ], dues: []}
-            },
-            {
-                day1: {date: "11/4", titles: ["Project Progress Presentation"], type: 1, notes: [
-                    {name: "Presentation Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
-                ], dues: [
-                    {name: "Progress Presentation Slides due by 11/4 (Mon)", link: "https://klms.kaist.ac.kr/"},
-                    {name: "Audience Evaluation Form due by 11/5 (Tue)", link: "https://klms.kaist.ac.kr/"}
-                ]},
-                day2: {date: "11/6", titles: ["Augmented Sensing III (Remote/Ambient)"], type: 0, notes: [], dues: [
-                    {name: "RR#4 due by 11/7 (Thu)", link: "https://klms.kaist.ac.kr/"},
-                    {name: "HW#4 due by 11/10 (Sun)", link: "https://klms.kaist.ac.kr/"}
-                ]}
-            },
-            {
-                day1: {date: "11/11", titles: ["Paper Seminar #4", "Technical Evaluation"], type: 1, notes: [], dues: []},
-                day2: {date: "11/13", titles: ["Project Feedback"], type: 1, notes: [
-                    {name: "Feedback Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
-                ], dues: [
-                    {name: "Progress Report due by 11/15 (Fri)", link: "https://klms.kaist.ac.kr/"},
-                    {name: "Peer Evaluation due by 11/15 (Fri)", link: "https://klms.kaist.ac.kr/"},
-                    {name: "RR#5 due by 11/17 (Sun)", link: "https://klms.kaist.ac.kr/"}
-                ]}
-            },
-            {
-                day1: {date: "11/18", titles: ["Augmented Haptic Feedback"], type: 0, notes: [], dues: []},
-                day2: {date: "11/20", titles: ["Paper Seminar #5", "Quantitative and Qualitative Study"], type: 1, notes: [], dues: []}
-            },
-            {
-                day1: {date: "11/25", titles: ["Applied Machine Learning for Augmented Humans"], type: 0, notes: [], dues: [
-                    {name: "RR#6 due by 11/24 (Sun)", link: "https://klms.kaist.ac.kr/"}
-                ]},
-                day2: {date: "11/27", titles: ["Paper Seminar #6", "Augmented hearing, taste, and smell"], type: 1, notes: [
-                    {name: "HW#5 Handout (KLMS)", link: ""}
-                ], dues: []}
-            },
-            {
-                day1: {date: "12/2", titles: ["Augmented Humans Storytelling & Design Approaches"], type: 0, notes: [], dues: []},
-                day2: {date: "12/4", titles: ["Project Preparation"], type: 0, notes: [], dues: [
-                    {name: "HW#5 due by 12/4 (Wed)", link: "https://klms.kaist.ac.kr/"}
-                ]}
-            },
-            {
-                day1: {date: "12/9", titles: ["Final Presentation"], type: 1, notes: [
-                    {name: "Presentation Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
-                ], dues: [
-                    {name: "Final Presentation Slides due by 12/8 (Sun)", link: "https://klms.kaist.ac.kr/"}
-                ]},
-                day2: {date: "12/11", titles: ["Final Project Feedback"], type: 1, notes: [
-                    {name: "Feedback Schedule", link: "https://docs.google.com/spreadsheets/d/1WWG8XswphFn51tshabZKuBCW55KJ4bcAFqdLtyEh2Rw/edit?usp=sharing"}
-                ], dues: [
-                    {name: "Audience Evaluation Form due by 12/12 (Thu)", link: "https://klms.kaist.ac.kr/"}
-                ]}
-            },
-            {
-                day1: {date: "12/16", titles: ["No class (Finals Week)"], type: 2, notes: [], dues: []},
-                day2: {date: "12/18", titles: ["No class (Finals Week)"], type: 2, notes: [], dues: [
-                    {name: "Final Report due by 12/17 (Tue)", link: "https://klms.kaist.ac.kr/"},
-                    {name: "Peer Evaluation due by 12/17 (Tue)", link: "https://klms.kaist.ac.kr/"}
-                ]}
-            }
-        ]
+        schedule: []
     },
     {
         course_info: {
@@ -345,14 +229,7 @@ export const gct565_data = [
         loc: "N5 #2332",
         submission: {name: "KLMS", link: "https://klms.kaist.ac.kr/"},
         discussion: {name: "Classum", link: "https://classum.com/"},
-        announcements: [
-            { date: "12/27", content: "Check out the fantastic videos/presentations from Augmented Humans Project in the Project Gallery!" },
-            { date: "11/4", content: "Final Presentation on 12/5 will be held in N25 #3229 from 12-2:30pm." },
-            { date: "10/24", content: "Progress Presentation on 10/31 & 11/2 will be held in N25 #3229." },
-            { date: "9/13", content: "Paper Seminar Group & Schedule Announcement" },
-            { date: "9/5", content: "Reading Group Announcement" },
-            { date: "8/29", content: "Class Starts!" }
-        ],
+        announcements: [],
         projects: [
             {
                 title: "Athem",
@@ -430,14 +307,7 @@ export const gct565_data = [
         loc: "N25 #3229",
         submission: {name: "KLMS", link: "https://klms.kaist.ac.kr/"},
         discussion: {name: "CLASSUM", link: "https://classum.com/"},
-        announcements: [
-            {date: "12/27", content: "Check out the fantastic videos/presentations from Augmented Humans Project in the Project Gallery!"},
-            {date: "11/4", content: "Final Presentation on 12/5 will be held in N25 #3229 from 12-2:30pm."},
-            {date: "10/24", content: "Progress Presentation on 10/31 & 11/2 will be held in N25 #3229."},
-            {date: "9/13", content: "Paper Seminar Group & Schedule Announcement"},
-            {date: "9/5", content: "Reading Group Announcement"},
-            {date: "8/29", content: "Class Starts!"},
-        ],
+        announcements: [],
         schedule: [
 
         ],
