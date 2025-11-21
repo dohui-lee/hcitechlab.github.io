@@ -353,49 +353,49 @@ export const gct722_data = [
                 "title": "Weekendo",
                 "members": "Doyo Choi, Sungbaek Kim",
                 "desc": "EMPop: Electromagnetic Actuation for Augmented Projection Mapping",
-                "videoLink": "https://www.youtube.com/embed/vx0_V1mBSDU?list=PLsnyS9wZul9YJUW0gtgbLOoz6YdjA74Jk",
-                "recognition": "Best Haptic Idea, Cool Video"
+                "videoLink": "https://www.youtube.com/embed/vx0_V1mBSDU",
+                "recognition": "Best Haptic Idea, Cool Video, CHI 2025 Interactivity"
             },
             {
                 "title": "Xensation (ISMAR 2023 Poster)",
                 "members": "Kyungjin Seo, Yeonsu Kim, Nicha Vanichvoranun",
                 "desc": "GoGoHand+: Designing Haptic Feedback to Enhance the GoGo Hand Interaction Technique",
-                "videoLink": "https://www.youtube.com/embed/RM-1zAk3iyw?list=PLsnyS9wZul9YJUW0gtgbLOoz6YdjA74Jk",
+                "videoLink": "https://www.youtube.com/embed/RM-1zAk3iyw",
                 "recognition": ""
             },
             {
                 "title": "CITPAH",
                 "members": "Ki-Dong Baek, Yewon Lee, Yong Won Choi",
                 "desc": "Estimating the Role of Thickness in Enhancing Artistic Experiences Through Haptic Collage: A Multisensory Approach in Virtual Reality",
-                "videoLink": "https://www.youtube.com/embed/YoabS4z4fNY?list=PLsnyS9wZul9YJUW0gtgbLOoz6YdjA74Jk",
+                "videoLink": "https://www.youtube.com/embed/YoabS4z4fNY",
                 "recognition": ""
             },
             {
                 "title": "Haptician",
                 "members": "Youjin Sung, Taeyeon Kim, Dongkyu Kwak",
                 "desc": "Deep-Texture: A Foldable Haptic Ring for Shape and Texture Rendering in Virtual Reality",
-                "videoLink": "https://www.youtube.com/embed/EVGpitmeL4o?list=PLsnyS9wZul9YJUW0gtgbLOoz6YdjA74Jk",
-                "recognition": "Best Haptic Idea"
+                "videoLink": "https://www.youtube.com/embed/EVGpitmeL4o",
+                "recognition": "Best Haptic Idea, VR 2025 Poster"
             },
             {
                 "title": "Haptics is the future",
                 "members": "Minyung Kim, Soyeong Yang, Linda Sinani",
                 "desc": "HaptoRelax: Haptic Feedback for Enhancing Human Touch in VR Relaxation Using SMA",
-                "videoLink": "https://www.youtube.com/embed/dUzEfDyQXyE?list=PLsnyS9wZul9YJUW0gtgbLOoz6YdjA74Jk",
+                "videoLink": "https://www.youtube.com/embed/dUzEfDyQXyE",
                 "recognition": ""
             },
             {
                 "title": "ErGO",
                 "members": "Erik Jonathan, Karin Rizky Irminanda",
                 "desc": "Enhancing VR Assembly Simulation Realism with Weight Illusion and Force Exertion",
-                "videoLink": "https://www.youtube.com/embed/nMH6W4Qd468?list=PLsnyS9wZul9YJUW0gtgbLOoz6YdjA74Jk",
+                "videoLink": "https://www.youtube.com/embed/nMH6W4Qd468",
                 "recognition": ""
             },
             {
                 "title": "Haptriks",
                 "members": "Hyung IL Yi, Atish Waghwase, Vera Janneke Jansen",
                 "desc": "Controller Adaptation to Enhance Haptic Feedback for Archery in Virtual Reality",
-                "videoLink": "https://www.youtube.com/embed/x0dAXSfRMB4?list=PLsnyS9wZul9YJUW0gtgbLOoz6YdjA74Jk",
+                "videoLink": "https://www.youtube.com/embed/x0dAXSfRMB4",
                 "recognition": ""
             }
         ]

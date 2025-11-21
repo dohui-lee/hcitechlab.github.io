@@ -450,77 +450,77 @@ export const ctp445_data = [
                 title: "The Choards",
                 members: "Eunki Joung, Seung-gun Park",
                 desc: "The Ducks: An Immersive AR-based Tycoon Game",
-                videoLink: "https://youtu.be/GRN5xBbUt5I?list=PLsnyS9wZul9aMbtTRLQ0rNsmXzq_SZF3x",
+                videoLink: "https://www.youtube.com/embed/GRN5xBbUt5I?list=PLsnyS9wZul9aMbtTRLQ0rNsmXzq_SZF3x",
                 recognition: ""
             },
             {
                 title: "GAZA",
                 members: "Hyuckjin Jang, Kyung Taek Oh, Seonji Kim",
                 desc: "AR Store Placement based on Spatial Information in Mobile AR Shopping",
-                videoLink: "https://youtu.be/FObmILDVP7Q",
+                videoLink: "https://www.youtube.com/embed/FObmILDVP7Q",
                 recognition: "ISMAR 2022 Poster"
             },
             {
                 title: "LAVR",
                 members: "Chaejung Maeng, Jiho Kang, Taehei Kim",
                 desc: "Adaptive Pointing Motion Generation using Mobile UI component for Mobile AR Collaboration",
-                videoLink: "https://youtu.be/HPqNxu00VpU",
+                videoLink: "https://www.youtube.com/embed/HPqNxu00VpU",
                 recognition: ""
             },
             {
                 title: "memARy",
                 members: "Eunhwa Song, Minju Baeck, Jihyeon Lee",
                 desc: "Memo:me, AR Sticky Notes with Time and Color-based Reminder and Priority Transition System for To-do Management",
-                videoLink: "https://youtu.be/k9GahOiQORE",
+                videoLink: "https://www.youtube.com/embed/k9GahOiQORE",
                 recognition: "VR 2023 Poster"
             },
             {
                 title: "BackSeating",
                 members: "Pooseung Sean Koh, Jaejun Lee, Jaehong Kim",
                 desc: "AR Desktop: Considering the Work Efficiency and Ergonomics",
-                videoLink: "https://youtu.be/UYKLGrTVcqg",
+                videoLink: "https://www.youtube.com/embed/UYKLGrTVcqg",
                 recognition: ""
             },
             {
                 title: "WALL-Engineers",
                 members: "Jungjin Park, Jeonghoon Han, Gihoon Kim",
                 desc: "AR Brain Wall",
-                videoLink: "https://youtu.be/51axyd3hHp4",
+                videoLink: "https://www.youtube.com/embed/51axyd3hHp4",
                 recognition: "Cool Video"
             },
             {
                 title: "YunLeeKim",
                 members: "Seungun Lee, Jiyoung Yun, Dain Kim",
                 desc: "MARS: Museum AR guide System",
-                videoLink: "https://youtu.be/MnQylKDfk2c",
+                videoLink: "https://www.youtube.com/embed/MnQylKDfk2c",
                 recognition: "Best Idea, ISMAR 2022 Poster"
             },
             {
                 title: "Cat Together",
                 members: "Bowon Kim, Yujeung Eum, Sihyun Jeong",
                 desc: "CaTogether",
-                videoLink: "https://youtu.be/hmJV3RE-kvk",
+                videoLink: "https://www.youtube.com/embed/hmJV3RE-kvk",
                 recognition: "Best Idea"
             },
             {
                 title: "V2",
                 members: "Hyun Ho Yun, Soyeon Yoon, Kampanart Sudprasert, Sungwoo Jeon",
                 desc: "Cloud Anchored Augmented Restaurant Menu Replacement by Time Period",
-                videoLink: "https://youtu.be/EEhdOj1J68A",
+                videoLink: "https://www.youtube.com/embed/EEhdOj1J68A",
                 recognition: ""
             },
             {
                 title: "Art Rich",
                 members: "Joosun Yum, Sohyun Park, Jieon Du, Zeynep Ozdemir",
                 desc: "Place Your AR Artwork: Art Rich",
-                videoLink: "https://youtu.be/NDkJtkrSerk",
+                videoLink: "https://www.youtube.com/embed/NDkJtkrSerk",
                 recognition: "ISMAR 2022 Poster"
             },
             {
                 title: "AR Ensemble Space",
                 members: "Jiyun Park, Jaeran Choi, Yohan Yun",
                 desc: "AR Ensemble Space: Spatial Music Visualizer in Augmented Reality",
-                videoLink: "https://youtu.be/1u8Jn2Bu8Yg",
+                videoLink: "https://www.youtube.com/embed/1u8Jn2Bu8Yg",
                 recognition: ""
             }
         ]
