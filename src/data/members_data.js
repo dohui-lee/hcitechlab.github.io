@@ -292,6 +292,17 @@ export const msStudents = [
         linkedin: "https://www.linkedin.com/in/eunho-kim-54059126a",
         note: "",
     },
+    {
+        img: "img/Member/DH.jpg",
+        hoverImg: "main_icon.png",
+        name: "Donghee Hyun",
+        title: "M.S. Student",
+        interest: "",
+        link: "#",
+        mail: "donghee@kaist.ac.kr",
+        linkedin: "https://www.linkedin.com/in/donghee-hyun-4715b0265/",
+        note: "",
+    },
 ];
 
 export const interns = [
