@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const recruitingData = {
     "period": "Winter 2026",
-    "formLink": "https://forms.gle/V9ScDwcvgNucQuyW6",
-    "documentLink": "https://docs.google.com/document/d/1BO5ckAfkNJK3NnuDOpjc-S0Q_yDRnrewTY0GauhTayI/edit?usp=sharing",
+    "formLink": "",
+    "documentLink": "",
     "projectTitles": [
         "Multimodal Hand Interaction Dataset & Modeling",
         "Impact Dataset & Haptic Generation from Movies with Multimodal AI",

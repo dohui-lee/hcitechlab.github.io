@@ -137,7 +137,7 @@ export const gct565_data = [
             {
                 day1: {date: "12/1", titles: ["Augmented Humans Storytelling & Design Approaches"], type: 0, notes: [], dues: []},
                 day2: {date: "12/3", titles: ["Project Q&A and Preparation"], type: 1, notes: [], dues: [
-                    {name: "HW#5 due by 12/3 (Wed)", link: "https://klms.kaist.ac.kr/"}
+                    {name: "HW#5 due by 12/5 (Fri) 12pm", link: "https://klms.kaist.ac.kr/"}
                 ]}
             },
             {
