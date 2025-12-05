@@ -5,18 +5,18 @@ export const research_temp = {
             demo: "",
             title: "Moving-Press: Pressure-based Moving Phantom Sensation for Immersive VR Hand Interaction",
             authors: "Dongkyu Kwak*, Kyungjin Seo*, Rachel Kim, Sang Ho Yoon",
-            status: "ACCEPTED - WILL BE PUBLISED IN",
+            status: "",
             conference: "ACM IMWUT",
             conferenceLink: "https://dl.acm.org/journal/imwut",
             award: "",
             website: "",
-            doi: "",
-            video: "",
+            doi: "https://dl.acm.org/doi/10.1145/3770682",
+            video: "https://youtu.be/_APRIPN81SE",
             pdf: "",
             presentation: "",
             media: "",
-            highlight: false,
-            category: "Preprint"
+            highlight: true,
+            category: "Conference / Journal (peer-reviewed)"
         },
         {
             poster: "research/2025/ISWC/ISWC1.png",
