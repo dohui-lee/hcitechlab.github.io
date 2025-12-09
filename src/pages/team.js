@@ -19,7 +19,6 @@ export default function Team() {
         <Postdocs />
         <PhdStudents />
         <MasterStudents />
-        <Interns />
         <AdministrativeStaff />
         <GradAlumni />
         <InternAlumni />
