@@ -27,7 +27,7 @@ export const research_temp = {
             conference: "ACM IMWUT (UbiComp/ISWC 2026)",
             conferenceLink: "https://dl.acm.org/journal/imwut",
             award: "",
-            website: "",
+            website: "https://hci-tech-lab.github.io/Moving-Press/",
             doi: "https://dl.acm.org/doi/10.1145/3770682",
             video: "https://youtu.be/_APRIPN81SE",
             pdf: "",
