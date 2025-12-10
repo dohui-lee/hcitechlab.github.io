@@ -154,7 +154,7 @@ export const research_temp = {
             conferenceLink: "https://uist.acm.org/2025/",
             award: "",
             website: "",
-            doi: "https://doi.org/10.1145/3746058.376044",
+            doi: "https://doi.org/10.1145/3746058.3760440",
             video: "",
             pdf: "",
             presentation: "",
