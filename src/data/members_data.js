@@ -243,9 +243,9 @@ export const msStudents = [
         name: "Dohui Lee",
         title: "M.S. Student",
         interest: "Research Interest",
-        link: "http://dohuilee.notion.site",
-        mail: "#",
-        linkedin: "#",
+        link: "https://dohui-lee.github.io/",
+        mail: "dohui.lee@kaist.ac.kr",
+        linkedin: "https://www.linkedin.com/in/dohui-lee-607943219/",
         note: "",
     },
     {
