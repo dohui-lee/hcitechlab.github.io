@@ -242,7 +242,7 @@ export const msStudents = [
         hoverImg: "img/Member/hover_image/DL_hover.jpg",
         name: "Dohui Lee",
         title: "M.S. Student",
-        interest: "Research Interest",
+        interest: "Human-Centered XR Interaction with AI",
         link: "https://dohui-lee.github.io/",
         mail: "dohui.lee@kaist.ac.kr",
         linkedin: "https://www.linkedin.com/in/dohui-lee-607943219/",
